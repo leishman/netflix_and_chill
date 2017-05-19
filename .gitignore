@@ -1,0 +1,9 @@
+/vendor
+*.png
+*.jpg
+*.html
+data/*.cap
+*.lock
+*.swp
+.bundle/*
+data/*.txt

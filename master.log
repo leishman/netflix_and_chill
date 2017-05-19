@@ -1,0 +1,1168 @@
+Version: 5.0006.659.011
+Esn: NFCDCH-MC-DKDKU7U1AC5HHU4LVRNYADT7VYD70Y
+JsSid: 14956818734061, Epoch: 1495681975, Start: 1495681873, TimeZone: 420
+Href: https://www.netflix.com/watch/80025313?trackId=14170287&tctx=0%2C0%2Cf33e8fc1-bc27-4aa2-8d29-abb3c0a30460-335558081
+UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3109.0 Safari/537.36
+--------------------------------------------------------------------------------
+0.605|0|T|General| Config applied for
+droppedframeratefilterenabled=true
+promisebasedeme=true
+workaroundvalueforseekissue=500
+capturekeystatusdata=true
+logmediapipelinestatus=true
+enablecongestionservice=true
+preparecadmium=true
+periodicpreparelogsintervalmilliseconds=600000
+enableldlprefetch=true
+donotperformldlonplaybackstart=true
+capturebatterystatus=true
+enablegetheadersandmediaprefetch=true
+enableusingheadercount=true
+defaultheadercachesize=15
+usesetservercertificateapi=true
+environment="prod"
+preferredlanguages="en-US"
+supportphonenumber="1-866-579-7172"
+errorsupporturls={"F7031-1102":"25078","H7053-1803":"14452","H7111-1101":"14563","H7354":"12993","H7361-1253-80070005":"32876","M7355-1203":"22952","M7357-1003":"14759","C7357-1003":"14759","M7357-1269":"14759","C7357-1269":"14759","M7701-1003":"27451","M7702-1003":"30321","S7354":"25711","S7363-1266-0000230D":"25704","S7363-1266-00002E3F":"32701","F7053-1803":"32660","F7701-1003":"32661","S7363-1266-48444350":"22497","O7702-1003":"40838"}
+chromeversion="Chrome 60.0.3109"
+windowscaling=true
+uimode="akira"
+apiurl="https://www.netflix.com/api/shakti/7d9a2e5d"
+postplayapirevision=""
+preservelastframe=true
+mdx2enabled=true
+hidesupporturl=false
+uitrackingenabled=true
+uitrackingendpoint="/uitracking/users/presentationtracking"
+uiversion="akira"
+enabletrickplay=true
+breakonerror=false
+disablevideorightclickmenu=false
+rendertimedtext=true
+postplaybaseurl="https://www.netflix.com/api/shakti/7d9a2e5d/postplay"
+reportaproblemendpoint="https://www.netflix.com/api/shakti/7d9a2e5d/reportproblem"
+reportproblemenabled=true
+metadatabaseserver="https://www.netflix.com/api/shakti/7d9a2e5d"
+akirametadatastrategy="shakti"
+forceccpaint=true
+requestfromnetflix=true
+pinconfig={"isEnabled":false,"resetUrl":"https://www.netflix.com/player/pinreset","pinResetOnNonPinContent":false,"isAdultVerified":true,"apiEndpoint":"https://www.netflix.com/api/shakti/7d9a2e5d/pin/service"}
+timedtextstyledefaults={"backgroundColor":null,"backgroundOpacity":"OPAQUE","characterColor":"YELLOW","characterEdgeAttributes":"DROP_SHADOW","characterEdgeColor":"BLACK","characterOpacity":"OPAQUE","characterSize":"MEDIUM","characterStyle":"PROPORTIONAL_SANS_SERIF","windowColor":null,"windowOpacity":"OPAQUE"}
+timedtextstyleoverrides={"backgroundColor":null,"backgroundOpacity":null,"characterColor":null,"characterEdgeAttributes":null,"characterEdgeColor":null,"characterOpacity":null,"characterSize":null,"characterStyle":null,"windowColor":null,"windowOpacity":null}
+usestarratings=false
+usethumbratings=true
+largedisplaydimensionthreshold={"height":900,"width":1600}
+maxautoplayseconds=15
+autoplayinterruptertimestamp=120000
+ignoreuseractivity=false
+webkitdecodedframecountincorrectlyreported=true
+secureurls=true
+playerupsellenabled=true
+skipcreditsenabled=true
+skipcreditsdisplayduration=6000
+bookmarkbymovieid={}
+preciseseeking=true
+focusplayerwrapperaftercontrolclick=false
+limitedsvgsupport=false
+maxtracklengthui=7
+uicontextconfig_motionbillboard={"preferredEngine":"cadmium"}
+uicontextconfig_bigrow={"preferredEngine":"cadmium"}
+uicontextconfig_embedded={"preferredEngine":null}
+feedback={"minChars":75,"maxChars":1000}
+resetcontrolfocusafterclick=true
+prepare=true
+browserinfo={"name":"Chrome","version":"60.0.3109","major":60,"os":{"name":"Mac OS X","fullName":"Mac OS X","version":"10.12.3"},"isFirefox":false,"isSafari":false,"isIE":false,"isEdge":false,"isChrome":true,"isOpera":false,"isWindows":false,"isMac":true,"isChromeOS":false,"isLinux":false,"isAndroid":false,"isIOS":false,"isIOSGT91":false,"isWindowsPhone":false,"isMobile":false,"isWindowsVista":false,"isWindowsXP":false,"isWindows7":false,"isWindows8":false,"isWindows10":false,"originallyIdentifiedAsAppleMail":false,"features":{"webp":true,"es2015":true,"maybeSupportsHTML5withDRM":true,"maybeSupportsSL":false,"maybeSupportsHTML5":true,"drmSystem":"widevine"},"specialFlags":{},"esnPrefix":"NFCDCH-MC-","_rawResult":{"family":"Chrome","major":"60","minor":"0","patch":"3109","device":{"family":"Other","major":"0","minor":"0","patch":"0"},"os":{"family":"Mac OS X","major":"10","minor":"12","patch":"3"}}}
+playdatapreparerequest=false
+notifyopenconnectblackbox=true
+histaggregationtimespaninseconds=600
+securestopenabled=false
+mslendpoint="https://www.netflix.com/api/msl/"
+congestionserviceapiendpoint="https://www.netflix.com/api/cbp/html5player/congestion"
+pingonconnecttimeout=true
+endpoint=true
+useperformanceapi="false"
+enableverboseplaydelaylogging=true
+downloadreportdenominator=10
+preparestrategy="ppm"
+preparemanifestcachemaxcount=50
+prepareldlcachemaxcount=30
+ppmconfig={"holdDuration":300000,"colEpisodeList":1,"rowFirst":1,"colFirst":1,"rowScroll":1,"colScroll":3,"rowScrollHorizontal":3,"searchTop":1,"cwFirst":2,"gridFirst":0,"gridScroll":0,"genre":2}
+supportpreviewcontent=true
+groupname="Test7890.Cell1"
+esn="NFCDCH-MC-DKDKU7U1AC5HHU4LVRNYADT7VYD70Y"
+0.731|0|T|LogBatcher| isOffline: false
+0.732|0|T|LogBatcher| Flushing
+0.904|0|T|Storage| objectstorenames length , 1
+0.908|0|T|AccountManager| Loading accounts from storage
+0.970|0|T|AccountManager| No persisted account data, creating default profile
+0.987|0|I|MessageQueue| No messages to load.
+2.524|0|I|Msl| No store state, starting fresh
+2.527|0|I|Nccp| Creating EDGE instance, Endpoint: https://www.netflix.com/api/msl/, Path: /cbp/cadmium-14
+2.628|0|W|ASEJS|media|asejs| nf-ase version:
+2.3.7
+DEBUG:, false
+2.636|0|T|ASE| Config changed for 'minInitVideoBitrate' from -Infinity (number) to 560 (number)
+2.636|0|T|ASE| Config changed for 'minHCInitVideoBitrate' from -Infinity (number) to 560 (number)
+2.639|0|T|ASE| Config changed for 'minInitAudioBitrate' from -Infinity (number) to 0 (number)
+2.639|0|T|ASE| Config changed for 'maxInitAudioBitrate' from Infinity (number) to 65535 (number)
+2.639|0|T|ASE| Config changed for 'minHCInitAudioBitrate' from -Infinity (number) to 0 (number)
+2.640|0|T|ASE| Config changed for 'minAcceptableVideoBitrate' from -Infinity (number) to 235 (number)
+2.640|0|T|ASE| Config changed for 'minPrebufSize' from 5800 (number) to 7800 (number)
+2.641|0|T|ASE| Config changed for 'maxPrebufSize' from 40000 (number) to 45000 (number)
+2.641|0|T|ASE| Config changed for 'maxBufferingTime' from 2000 (number) to 2600 (number)
+2.641|0|T|ASE| Config changed for 'initSelectionLowerBound' from -Infinity (number) to 560 (number)
+2.642|0|T|ASE| Config changed for 'initSelectionUpperBound' from Infinity (number) to 1050 (number)
+2.642|0|T|ASE| Config changed for 'bandwidthMargin' from 0 (number) to 10 (number)
+2.642|0|T|ASE| Config changed for 'bandwidthMarginCurve' from [{"m":20,"b":15000},{"m":17,"b":30000},{"m":10,"b":60000},{"m":5,"b":120000}] (object) to [{"m":70,"b":8000},{"m":70,"b":30000},{"m":50,"b":60000},{"m":47,"b":90000},{"m":40,"b":120000},{"m":20,"b":180000},{"m":5,"b":240000}] (object)
+2.643|0|T|ASE| Config changed for 'switchConfigBasedOnInSessionTput' from true (boolean) to false (boolean)
+2.643|0|T|ASE| Config changed for 'conservBandwidthMarginTputThreshold' from 6000 (number) to 0 (number)
+2.643|0|T|ASE| Config changed for 'conservBandwidthMarginCurve' from [{"m":25,"b":15000},{"m":20,"b":30000},{"m":15,"b":60000},{"m":10,"b":120000},{"m":5,"b":240000}] (object) to [{"m":80,"b":8000},{"m":80,"b":30000},{"m":70,"b":60000},{"m":60,"b":90000},{"m":50,"b":120000},{"m":30,"b":180000},{"m":10,"b":240000}] (object)
+2.644|0|T|ASE| Config changed for 'switchConfigBasedOnHistIQR' from true (boolean) to false (boolean)
+2.644|0|T|ASE| Config changed for 'skipBitrateInUpswitch' from false (boolean) to true (boolean)
+2.644|0|T|ASE| Config changed for 'highStreamTransitionWindow' from 500000 (number) to 300000 (number)
+2.645|0|T|ASE| Config changed for 'lowestBufForUpswitch' from 9000 (number) to 15000 (number)
+2.645|0|T|ASE| Config changed for 'lowWatermarkLevel' from 15000 (number) to 25000 (number)
+2.645|0|T|ASE| Config changed for 'mediaRate' from 1.5 (number) to 1 (number)
+2.645|0|T|ASE| Config changed for 'maxTrailingBufferLen' from 15000 (number) to 10000 (number)
+2.646|0|T|ASE| Config changed for 'maxMediaBufferAllowed' from 270000 (number) to 240000 (number)
+2.646|0|T|ASE| Config changed for 'considerConnectTime' from true (boolean) to false (boolean)
+2.647|0|T|ASE| Config changed for 'allowReissueMediaRequestAfterAbort' from false (boolean) to true (boolean)
+2.647|0|T|ASE| Config changed for 'preciseBufferCalculation' from false (boolean) to true (boolean)
+2.647|0|T|ASE| Config changed for 'bufferThresholdForAbort' from 20000 (number) to 10000 (number)
+2.648|0|T|ASE| Config changed for 'allowCallToStreamSelector' from false (boolean) to true (boolean)
+2.648|0|T|ASE| Config changed for 'minPendingBufferLen' from 3000 (number) to 6000 (number)
+2.648|0|T|ASE| Config changed for 'maxPendingBufferLen' from 6000 (number) to 12000 (number)
+2.649|0|T|ASE| Config changed for 'maxStreamingSkew' from 2000 (number) to 4000 (number)
+2.650|0|T|ASE| Config changed for 'maxRequestsInBuffer' from 120 (number) to 60 (number)
+2.650|0|T|ASE| Config changed for 'reserveForSkipbackBufferMs' from 15000 (number) to 10000 (number)
+2.650|0|T|ASE| Config changed for 'pipelineEnabled' from true (boolean) to false (boolean)
+2.651|0|T|ASE| Config changed for 'updatePtsIntervalMs' from 1000 (number) to 2002 (number)
+2.651|0|T|ASE| Config changed for 'bufferLevelNotifyIntervalMs' from 2000 (number) to 2002 (number)
+2.652|0|T|ASE| Config changed for 'prebufferTimeLimit' from 60000 (number) to 240000 (number)
+2.652|0|T|ASE| Config changed for 'updateDrmRequestOnNetworkFailure' from true (boolean) to false (boolean)
+2.653|0|T|ASE| Config changed for 'maxDiffAudioVideoEndPtsMs' from 1000 (number) to 16000 (number)
+2.653|0|T|ASE| Config changed for 'defaultHeaderCacheSize' from 4 (number) to 15 (number)
+2.653|0|T|ASE| Config changed for 'defaultHeaderCacheDataCount' from 4 (number) to 3 (number)
+2.653|0|T|ASE| Config changed for 'enableUsingHeaderCount' from false (boolean) to true (boolean)
+2.654|0|T|ASE| Config changed for 'abortUnsentBlocks' from true (boolean) to false (boolean)
+2.654|0|T|ASE| Config changed for 'mp4ParsingInNative' from false (boolean) to true (boolean)
+2.654|0|T|ASE| Config changed for 'sourceBufferInOrderAppend' from true (boolean) to false (boolean)
+2.655|0|T|ASE| Config changed for 'allowAudioToStreamPastVideo' from false (boolean) to true (boolean)
+2.655|0|T|ASE| Config changed for 'pruneRequestsFromNative' from false (boolean) to true (boolean)
+2.655|0|T|ASE| Config changed for 'bufferThresholdToSwitchToSingleConnMs' from 45000 (number) to 180000 (number)
+2.656|0|T|ASE| Config changed for 'bufferThresholdToSwitchToParallelConnMs' from 35000 (number) to 120000 (number)
+2.656|0|T|ASE| Config changed for 'holtWintersHalfLifeAlpha' from 2000 (number) to 6700 (number)
+2.657|0|T|ASE| Config changed for 'holtWintersHalfLifeGamma' from 14000 (number) to 6700 (number)
+2.657|0|T|ASE| Config changed for 'secondThroughputEstimator' from "slidingwindow" (string) to "none" (string)
+2.657|0|T|ASE| Config changed for 'secondThroughputMeasureWindowInMs' from 300000 (number) to Infinity (number)
+2.658|0|T|ASE| Config changed for 'IQRBandwidthFactorConfig' from {"iur":true,"minr":8000,"maxr":20000,"rlaf":60,"flb":0.5,"fup":0.85,"fmind":0.75,"fmaxd":1,"fmintp":0.25,"fmindp":0.75} (object) to {"iur":true,"minr":8000,"maxr":20000,"rlaf":60,"flb":0.1,"fup":0.95,"fmind":0.2,"fmaxd":1,"fmintp":0.25,"fmindp":0.75} (object)
+2.658|0|T|ASE| Config changed for 'HistoricalTDigestConfig' from {"maxc":25,"rc":"ewma","c":0.5,"hl":7200} (object) to {"maxc":25,"rc":"ewma","c":0.5,"hl":7200} (object)
+2.658|0|T|ASE| Config changed for 'TputTDigestConfig' from {"maxc":25,"c":0.5,"b":5000,"w":15000} (object) to {"maxc":25,"c":0.5,"b":5000,"w":15000} (object)
+2.659|0|T|ASE| Config changed for 'maxIQRSamples' from 100 (number) to Infinity (number)
+2.659|0|T|ASE| Config changed for 'warmupThroughputMeasurementTime' from -1 (number) to -Infinity (number)
+2.659|0|T|ASE| Config changed for 'warmupThroughputMeasurementConfidence' from 2 (number) to 0 (number)
+2.660|0|T|ASE| Config changed for 'bufferBased' from {"JN":12000,"$N":6000,"A1":60000,"CN":90,"yP":60,"s4":30,"gl":240000,"t4":true,"QY":true,"M0":true,"e5":true,"u4":true,"v4":true,"q4":false,"r4":120,"H0":false,"r1":90000,"OM":false,"yN":126000,"A0":false,"K0":false} (object) to {"JN":120000,"$N":8000,"A1":60000,"CN":90,"yP":60,"s4":30,"gl":219988,"t4":true,"QY":true,"M0":true,"e5":true,"u4":true,"v4":true,"q4":false,"r4":120,"H0":false,"r1":90000,"OM":false,"yN":126000,"A0":false,"K0":false} (object)
+2.660|0|T|ASE| Config changed for 'periodicHistoryPersistMs' from 0 (number) to 300000 (number)
+2.661|0|T|ASE| Config changed for 'saveVideoBitrateMs' from 0 (number) to 180000 (number)
+2.661|0|T|ASE| Config changed for 'biasTowardHistoricalThroughput' from false (boolean) to true (boolean)
+2.662|0|T|ASE| Config changed for 'headerCacheTruncateHeaderAfterParsing' from true (boolean) to false (boolean)
+2.662|0|T|ASE| Config changed for 'audioFragmentDurationMilliseconds' from null (object) to 16000 (number)
+2.662|0|T|ASE| Config changed for 'videoFragmentDurationMilliseconds' from null (object) to 4004 (number)
+2.663|0|T|ASE| Config changed for 'addHeaderDataToNetworkMonitor' from true (boolean) to false (boolean)
+2.663|0|T|ASE| Config changed for 'psdPredictor' from {"numB":240,"bSizeMs":1000,"fillS":"last","fillHl":1000,"bthresh":100,"freqave":5,"numfreq":26,"beta":[-2.57382621685251,1.00514098612371,-0.369357559975733,0.00999932810065489,0.142934270516382,0.162644679552085,-0.0566219452189998,0.022239120872481,-0.0668887810950692,-0.179565604901062,-0.164944450316777,-0.269160823754313,-0.353934286812968,0.127490861540904,-0.30639082364227,-0.21647101116447,-0.0842995352796247,-0.0103329141448779,-0.12855537458795,0.181738862222313,0.263672043403025,0.0755588656690725,0.400401204107367,-0.420677412792809,-1.09035458665828,1.27111376831522,0.561903634898845,-1.17759977644374],"thresh":0.525,"tol":1e-10,"tol2":0.0001} (object) to {"numB":240,"bSizeMs":1000,"fillS":"last","fillHl":1000,"bthresh":100,"freqave":5,"numfreq":26,"beta":[-2.57382621685251,1.00514098612371,-0.369357559975733,0.00999932810065489,0.142934270516382,0.162644679552085,-0.0566219452189998,0.022239120872481,-0.0668887810950692,-0.179565604901062,-0.164944450316777,-0.269160823754313,-0.353934286812968,0.127490861540904,-0.30639082364227,-0.21647101116447,-0.0842995352796247,-0.0103329141448779,-0.12855537458795,0.181738862222313,0.263672043403025,0.0755588656690725,0.400401204107367,-0.420677412792809,-1.09035458665828,1.27111376831522,0.561903634898845,-1.17759977644374],"thresh":0.22,"tol":1e-10,"tol2":0.0001} (object)
+2.683|0|I|VideoPreparer| instance created
+2.724|0|T|General| Config applied for
+environment="prod"
+preferredLanguages="en-US"
+supportPhoneNumber="1-866-579-7172"
+errorSupportUrls={"F7031-1102":"25078","H7053-1803":"14452","H7111-1101":"14563","H7354":"12993","H7361-1253-80070005":"32876","M7355-1203":"22952","M7357-1003":"14759","C7357-1003":"14759","M7357-1269":"14759","C7357-1269":"14759","M7701-1003":"27451","M7702-1003":"30321","S7354":"25711","S7363-1266-0000230D":"25704","S7363-1266-00002E3F":"32701","F7053-1803":"32660","F7701-1003":"32661","S7363-1266-48444350":"22497","O7702-1003":"40838"}
+chromeVersion="Chrome 60.0.3109"
+windowScaling=true
+uimode="akira"
+apiUrl="https://www.netflix.com/api/shakti/7d9a2e5d"
+postPlayApiRevision=""
+preserveLastFrame=true
+mdx2Enabled=true
+hideSupportUrl=false
+uiTrackingEnabled=true
+uiTrackingEndpoint="/uitracking/users/presentationtracking"
+uiVersion="akira"
+enableTrickPlay=true
+breakOnError=false
+disableVideoRightClickMenu=false
+renderTimedText=true
+postPlayBaseUrl="https://www.netflix.com/api/shakti/7d9a2e5d/postplay"
+reportAProblemEndpoint="https://www.netflix.com/api/shakti/7d9a2e5d/reportproblem"
+reportProblemEnabled=true
+metadataBaseServer="https://www.netflix.com/api/shakti/7d9a2e5d"
+akiraMetadataStrategy="shakti"
+forceCCPaint=true
+requestFromNetflix=true
+pinConfig={"isEnabled":false,"resetUrl":"https://www.netflix.com/player/pinreset","pinResetOnNonPinContent":false,"isAdultVerified":true,"apiEndpoint":"https://www.netflix.com/api/shakti/7d9a2e5d/pin/service"}
+timedTextStyleDefaults={"backgroundColor":null,"backgroundOpacity":"OPAQUE","characterColor":"YELLOW","characterEdgeAttributes":"DROP_SHADOW","characterEdgeColor":"BLACK","characterOpacity":"OPAQUE","characterSize":"MEDIUM","characterStyle":"PROPORTIONAL_SANS_SERIF","windowColor":null,"windowOpacity":"OPAQUE"}
+timedTextStyleOverrides={"backgroundColor":null,"backgroundOpacity":null,"characterColor":null,"characterEdgeAttributes":null,"characterEdgeColor":null,"characterOpacity":null,"characterSize":null,"characterStyle":null,"windowColor":null,"windowOpacity":null}
+useStarRatings=false
+useThumbRatings=true
+largeDisplayDimensionThreshold={"height":900,"width":1600}
+maxAutoPlaySeconds=15
+autoplayInterrupterTimestamp=120000
+ignoreUserActivity=false
+webkitDecodedFrameCountIncorrectlyReported=true
+secureUrls=true
+playerUpsellEnabled=true
+skipCreditsEnabled=true
+skipCreditsDisplayDuration=6000
+bookmarkByMovieId={}
+preciseSeeking=true
+focusPlayerWrapperAfterControlClick=false
+limitedSVGSupport=false
+maxTrackLengthUI=7
+uiContextConfig_motionBillboard={"preferredEngine":"cadmium"}
+uiContextConfig_bigRow={"preferredEngine":"cadmium"}
+uiContextConfig_embedded={"preferredEngine":null}
+feedback={"minChars":75,"maxChars":1000}
+resetControlFocusAfterClick=true
+prepare=true
+browserInfo={"name":"Chrome","version":"60.0.3109","major":60,"os":{"name":"Mac OS X","fullName":"Mac OS X","version":"10.12.3"},"isFirefox":false,"isSafari":false,"isIE":false,"isEdge":false,"isChrome":true,"isOpera":false,"isWindows":false,"isMac":true,"isChromeOS":false,"isLinux":false,"isAndroid":false,"isIOS":false,"isIOSGT91":false,"isWindowsPhone":false,"isMobile":false,"isWindowsVista":false,"isWindowsXP":false,"isWindows7":false,"isWindows8":false,"isWindows10":false,"originallyIdentifiedAsAppleMail":false,"features":{"webp":true,"es2015":true,"maybeSupportsHTML5withDRM":true,"maybeSupportsSL":false,"maybeSupportsHTML5":true,"drmSystem":"widevine"},"specialFlags":{},"esnPrefix":"NFCDCH-MC-","_rawResult":{"family":"Chrome","major":"60","minor":"0","patch":"3109","device":{"family":"Other","major":"0","minor":"0","patch":"0"},"os":{"family":"Mac OS X","major":"10","minor":"12","patch":"3"}}}
+playdataPrepareRequest=false
+notifyOpenConnectBlackBox=true
+histAggregationTimeSpanInSeconds=600
+secureStopEnabled=false
+mslEndpoint="https://www.netflix.com/api/msl/"
+congestionServiceApiEndpoint="https://www.netflix.com/api/cbp/html5player/congestion"
+pingOnConnectTimeout=true
+endpoint=true
+usePerformanceApi="false"
+enableVerbosePlaydelayLogging=true
+downloadReportDenominator=10
+prepareStrategy="ppm"
+prepareManifestCacheMaxCount=50
+prepareLdlCacheMaxCount=30
+ppmConfig={"holdDuration":300000,"colEpisodeList":1,"rowFirst":1,"colFirst":1,"rowScroll":1,"colScroll":3,"rowScrollHorizontal":3,"searchTop":1,"cwFirst":2,"gridFirst":0,"gridScroll":0,"genre":2}
+supportPreviewContent=true
+useSetServerCertificateApi=true
+groupName="Test7890.Cell1"
+esn="NFCDCH-MC-DKDKU7U1AC5HHU4LVRNYADT7VYD70Y"
+2.730|0|T|VideoPreparer| prepare tasks, 0: 80025313-manifest, 1: 80025313-ldl, 2: 80025313-getHeadersAndMedia
+2.730|0|T|VideoPreparer| adding tasks, number of tasks: 3
+2.732|0|T|VideoPreparer| getManifest: 80025313
+2.732|0|T|VideoPreparer| cache miss: no data exists for field:manifest
+2.733|0|T|VideoPreparer| manifest not available in cache
+unavailable
+2.744|0|T|VideoPreparer| manifest request for:80025313
+2.752|0|T|VideoPreparer| Sending EDGE request, Method: manifest
+2.757|0|T|Msl| Sending MSL request
+2.786|0|T|Msl| Sent MSL header, NccpMethod: manifest, UserId: browser, UT: null, MT: null, STCount: 0
+
+2.914|0|T|Msl| Received MSL header, NccpMethod: manifest, UserId: browser, UT: null, MT: null, STCount: 0
+2.914|0|T|Msl| Adding MasterToken, SequenceNumber: 1, SerialNumber: 5913070915037797, Expiration: 1496891476000
+2.915|0|T|Msl| Generating new keyx request data
+5.422|0|T|General| Config applied for
+environment="prod"
+preferredLanguages="en-US"
+supportPhoneNumber="1-866-579-7172"
+errorSupportUrls={"F7031-1102":"25078","H7053-1803":"14452","H7111-1101":"14563","H7354":"12993","H7361-1253-80070005":"32876","M7355-1203":"22952","M7357-1003":"14759","C7357-1003":"14759","M7357-1269":"14759","C7357-1269":"14759","M7701-1003":"27451","M7702-1003":"30321","S7354":"25711","S7363-1266-0000230D":"25704","S7363-1266-00002E3F":"32701","F7053-1803":"32660","F7701-1003":"32661","S7363-1266-48444350":"22497","O7702-1003":"40838"}
+chromeVersion="Chrome 60.0.3109"
+windowScaling=true
+uimode="akira"
+apiUrl="https://www.netflix.com/api/shakti/7d9a2e5d"
+postPlayApiRevision=""
+preserveLastFrame=true
+mdx2Enabled=true
+hideSupportUrl=false
+uiTrackingEnabled=true
+uiTrackingEndpoint="/uitracking/users/presentationtracking"
+uiVersion="akira"
+enableTrickPlay=true
+breakOnError=false
+disableVideoRightClickMenu=false
+renderTimedText=true
+postPlayBaseUrl="https://www.netflix.com/api/shakti/7d9a2e5d/postplay"
+reportAProblemEndpoint="https://www.netflix.com/api/shakti/7d9a2e5d/reportproblem"
+reportProblemEnabled=true
+metadataBaseServer="https://www.netflix.com/api/shakti/7d9a2e5d"
+akiraMetadataStrategy="shakti"
+forceCCPaint=true
+requestFromNetflix=true
+pinConfig={"isEnabled":false,"resetUrl":"https://www.netflix.com/player/pinreset","pinResetOnNonPinContent":false,"isAdultVerified":true,"apiEndpoint":"https://www.netflix.com/api/shakti/7d9a2e5d/pin/service"}
+timedTextStyleDefaults={"backgroundColor":null,"backgroundOpacity":"OPAQUE","characterColor":"YELLOW","characterEdgeAttributes":"DROP_SHADOW","characterEdgeColor":"BLACK","characterOpacity":"OPAQUE","characterSize":"MEDIUM","characterStyle":"PROPORTIONAL_SANS_SERIF","windowColor":null,"windowOpacity":"OPAQUE"}
+timedTextStyleOverrides={"backgroundColor":null,"backgroundOpacity":null,"characterColor":null,"characterEdgeAttributes":null,"characterEdgeColor":null,"characterOpacity":null,"characterSize":null,"characterStyle":null,"windowColor":null,"windowOpacity":null}
+useStarRatings=false
+useThumbRatings=true
+largeDisplayDimensionThreshold={"height":900,"width":1600}
+maxAutoPlaySeconds=15
+autoplayInterrupterTimestamp=120000
+ignoreUserActivity=false
+webkitDecodedFrameCountIncorrectlyReported=true
+secureUrls=true
+playerUpsellEnabled=true
+skipCreditsEnabled=true
+skipCreditsDisplayDuration=6000
+bookmarkByMovieId={}
+preciseSeeking=true
+focusPlayerWrapperAfterControlClick=false
+limitedSVGSupport=false
+maxTrackLengthUI=7
+uiContextConfig_motionBillboard={"preferredEngine":"cadmium"}
+uiContextConfig_bigRow={"preferredEngine":"cadmium"}
+uiContextConfig_embedded={"preferredEngine":null}
+feedback={"minChars":75,"maxChars":1000}
+resetControlFocusAfterClick=true
+prepare=true
+browserInfo={"name":"Chrome","version":"60.0.3109","major":60,"os":{"name":"Mac OS X","fullName":"Mac OS X","version":"10.12.3"},"isFirefox":false,"isSafari":false,"isIE":false,"isEdge":false,"isChrome":true,"isOpera":false,"isWindows":false,"isMac":true,"isChromeOS":false,"isLinux":false,"isAndroid":false,"isIOS":false,"isIOSGT91":false,"isWindowsPhone":false,"isMobile":false,"isWindowsVista":false,"isWindowsXP":false,"isWindows7":false,"isWindows8":false,"isWindows10":false,"originallyIdentifiedAsAppleMail":false,"features":{"webp":true,"es2015":true,"maybeSupportsHTML5withDRM":true,"maybeSupportsSL":false,"maybeSupportsHTML5":true,"drmSystem":"widevine"},"specialFlags":{},"esnPrefix":"NFCDCH-MC-","_rawResult":{"family":"Chrome","major":"60","minor":"0","patch":"3109","device":{"family":"Other","major":"0","minor":"0","patch":"0"},"os":{"family":"Mac OS X","major":"10","minor":"12","patch":"3"}}}
+playdataPrepareRequest=false
+notifyOpenConnectBlackBox=true
+histAggregationTimeSpanInSeconds=600
+secureStopEnabled=false
+mslEndpoint="https://www.netflix.com/api/msl/"
+congestionServiceApiEndpoint="https://www.netflix.com/api/cbp/html5player/congestion"
+pingOnConnectTimeout=true
+endpoint=true
+usePerformanceApi="false"
+enableVerbosePlaydelayLogging=true
+downloadReportDenominator=10
+prepareStrategy="ppm"
+prepareManifestCacheMaxCount=50
+prepareLdlCacheMaxCount=30
+ppmConfig={"holdDuration":300000,"colEpisodeList":1,"rowFirst":1,"colFirst":1,"rowScroll":1,"colScroll":3,"rowScrollHorizontal":3,"searchTop":1,"cwFirst":2,"gridFirst":0,"gridScroll":0,"genre":2}
+supportPreviewContent=true
+useSetServerCertificateApi=true
+groupName="Test7890.Cell1"
+esn="NFCDCH-MC-DKDKU7U1AC5HHU4LVRNYADT7VYD70Y"
+5.422|0|T|VideoPreparer| manifest exists in cache for 80025313
+5.423|0|T|VideoPreparer| prepare tasks, 0: 80025313-ldl, 1: 80025313-getHeadersAndMedia
+5.423|0|T|VideoPreparer| adding tasks, number of tasks: 2
+5.423|0|T|VideoPreparer| cache miss: no data exists for field:ldl
+5.428|0|T|General| Config applied for
+environment="prod"
+preferredLanguages="en-US"
+supportPhoneNumber="1-866-579-7172"
+errorSupportUrls={"F7031-1102":"25078","H7053-1803":"14452","H7111-1101":"14563","H7354":"12993","H7361-1253-80070005":"32876","M7355-1203":"22952","M7357-1003":"14759","C7357-1003":"14759","M7357-1269":"14759","C7357-1269":"14759","M7701-1003":"27451","M7702-1003":"30321","S7354":"25711","S7363-1266-0000230D":"25704","S7363-1266-00002E3F":"32701","F7053-1803":"32660","F7701-1003":"32661","S7363-1266-48444350":"22497","O7702-1003":"40838"}
+chromeVersion="Chrome 60.0.3109"
+windowScaling=true
+uimode="akira"
+apiUrl="https://www.netflix.com/api/shakti/7d9a2e5d"
+postPlayApiRevision=""
+preserveLastFrame=true
+mdx2Enabled=true
+hideSupportUrl=false
+uiTrackingEnabled=true
+uiTrackingEndpoint="/uitracking/users/presentationtracking"
+uiVersion="akira"
+enableTrickPlay=true
+breakOnError=false
+disableVideoRightClickMenu=false
+renderTimedText=true
+postPlayBaseUrl="https://www.netflix.com/api/shakti/7d9a2e5d/postplay"
+reportAProblemEndpoint="https://www.netflix.com/api/shakti/7d9a2e5d/reportproblem"
+reportProblemEnabled=true
+metadataBaseServer="https://www.netflix.com/api/shakti/7d9a2e5d"
+akiraMetadataStrategy="shakti"
+forceCCPaint=true
+requestFromNetflix=true
+pinConfig={"isEnabled":false,"resetUrl":"https://www.netflix.com/player/pinreset","pinResetOnNonPinContent":false,"isAdultVerified":true,"apiEndpoint":"https://www.netflix.com/api/shakti/7d9a2e5d/pin/service"}
+timedTextStyleDefaults={"backgroundColor":null,"backgroundOpacity":"OPAQUE","characterColor":"YELLOW","characterEdgeAttributes":"DROP_SHADOW","characterEdgeColor":"BLACK","characterOpacity":"OPAQUE","characterSize":"MEDIUM","characterStyle":"PROPORTIONAL_SANS_SERIF","windowColor":null,"windowOpacity":"OPAQUE"}
+timedTextStyleOverrides={"backgroundColor":null,"backgroundOpacity":null,"characterColor":null,"characterEdgeAttributes":null,"characterEdgeColor":null,"characterOpacity":null,"characterSize":null,"characterStyle":null,"windowColor":null,"windowOpacity":null}
+useStarRatings=false
+useThumbRatings=true
+largeDisplayDimensionThreshold={"height":900,"width":1600}
+maxAutoPlaySeconds=15
+autoplayInterrupterTimestamp=120000
+ignoreUserActivity=false
+webkitDecodedFrameCountIncorrectlyReported=true
+secureUrls=true
+playerUpsellEnabled=true
+skipCreditsEnabled=true
+skipCreditsDisplayDuration=6000
+bookmarkByMovieId={}
+preciseSeeking=true
+focusPlayerWrapperAfterControlClick=false
+limitedSVGSupport=false
+maxTrackLengthUI=7
+uiContextConfig_motionBillboard={"preferredEngine":"cadmium"}
+uiContextConfig_bigRow={"preferredEngine":"cadmium"}
+uiContextConfig_embedded={"preferredEngine":null}
+feedback={"minChars":75,"maxChars":1000}
+resetControlFocusAfterClick=true
+prepare=true
+browserInfo={"name":"Chrome","version":"60.0.3109","major":60,"os":{"name":"Mac OS X","fullName":"Mac OS X","version":"10.12.3"},"isFirefox":false,"isSafari":false,"isIE":false,"isEdge":false,"isChrome":true,"isOpera":false,"isWindows":false,"isMac":true,"isChromeOS":false,"isLinux":false,"isAndroid":false,"isIOS":false,"isIOSGT91":false,"isWindowsPhone":false,"isMobile":false,"isWindowsVista":false,"isWindowsXP":false,"isWindows7":false,"isWindows8":false,"isWindows10":false,"originallyIdentifiedAsAppleMail":false,"features":{"webp":true,"es2015":true,"maybeSupportsHTML5withDRM":true,"maybeSupportsSL":false,"maybeSupportsHTML5":true,"drmSystem":"widevine"},"specialFlags":{},"esnPrefix":"NFCDCH-MC-","_rawResult":{"family":"Chrome","major":"60","minor":"0","patch":"3109","device":{"family":"Other","major":"0","minor":"0","patch":"0"},"os":{"family":"Mac OS X","major":"10","minor":"12","patch":"3"}}}
+playdataPrepareRequest=false
+notifyOpenConnectBlackBox=true
+histAggregationTimeSpanInSeconds=600
+secureStopEnabled=false
+mslEndpoint="https://www.netflix.com/api/msl/"
+congestionServiceApiEndpoint="https://www.netflix.com/api/cbp/html5player/congestion"
+pingOnConnectTimeout=true
+endpoint=true
+usePerformanceApi="false"
+enableVerbosePlaydelayLogging=true
+downloadReportDenominator=10
+prepareStrategy="ppm"
+prepareManifestCacheMaxCount=50
+prepareLdlCacheMaxCount=30
+ppmConfig={"holdDuration":300000,"colEpisodeList":1,"rowFirst":1,"colFirst":1,"rowScroll":1,"colScroll":3,"rowScrollHorizontal":3,"searchTop":1,"cwFirst":2,"gridFirst":0,"gridScroll":0,"genre":2}
+supportPreviewContent=true
+useSetServerCertificateApi=true
+groupName="Test7890.Cell1"
+esn="NFCDCH-MC-DKDKU7U1AC5HHU4LVRNYADT7VYD70Y"
+5.428|0|T|VideoPreparer| manifest exists in cache for 80025313
+5.429|0|T|VideoPreparer| prepare tasks, 0: 80025313-ldl, 1: 80025313-getHeadersAndMedia
+5.429|0|T|VideoPreparer| adding tasks, number of tasks: 2
+5.429|0|T|VideoPreparer| cache miss: no data exists for field:ldl
+5.485|0|T|VideoPreparer| ldl not available in cache
+unavailable
+5.485|0|T|VideoPreparer| cache hit: manifest request in flight for movieId:80025313
+5.485|0|T|VideoPreparer| ldl not available in cache
+unavailable
+5.486|0|T|VideoPreparer| cache hit: manifest request in flight for movieId:80025313
+5.861|0|T|General| Config applied for
+environment="prod"
+preferredLanguages="en-US"
+supportPhoneNumber="1-866-579-7172"
+errorSupportUrls={"F7031-1102":"25078","H7053-1803":"14452","H7111-1101":"14563","H7354":"12993","H7361-1253-80070005":"32876","M7355-1203":"22952","M7357-1003":"14759","C7357-1003":"14759","M7357-1269":"14759","C7357-1269":"14759","M7701-1003":"27451","M7702-1003":"30321","S7354":"25711","S7363-1266-0000230D":"25704","S7363-1266-00002E3F":"32701","F7053-1803":"32660","F7701-1003":"32661","S7363-1266-48444350":"22497","O7702-1003":"40838"}
+chromeVersion="Chrome 60.0.3109"
+windowScaling=true
+uimode="akira"
+apiUrl="https://www.netflix.com/api/shakti/7d9a2e5d"
+postPlayApiRevision=""
+preserveLastFrame=true
+mdx2Enabled=true
+hideSupportUrl=false
+uiTrackingEnabled=true
+uiTrackingEndpoint="/uitracking/users/presentationtracking"
+uiVersion="akira"
+enableTrickPlay=true
+breakOnError=false
+disableVideoRightClickMenu=false
+renderTimedText=true
+postPlayBaseUrl="https://www.netflix.com/api/shakti/7d9a2e5d/postplay"
+reportAProblemEndpoint="https://www.netflix.com/api/shakti/7d9a2e5d/reportproblem"
+reportProblemEnabled=true
+metadataBaseServer="https://www.netflix.com/api/shakti/7d9a2e5d"
+akiraMetadataStrategy="shakti"
+forceCCPaint=true
+requestFromNetflix=true
+pinConfig={"isEnabled":false,"resetUrl":"https://www.netflix.com/player/pinreset","pinResetOnNonPinContent":false,"isAdultVerified":true,"apiEndpoint":"https://www.netflix.com/api/shakti/7d9a2e5d/pin/service"}
+timedTextStyleDefaults={"backgroundColor":null,"backgroundOpacity":"OPAQUE","characterColor":"YELLOW","characterEdgeAttributes":"DROP_SHADOW","characterEdgeColor":"BLACK","characterOpacity":"OPAQUE","characterSize":"MEDIUM","characterStyle":"PROPORTIONAL_SANS_SERIF","windowColor":null,"windowOpacity":"OPAQUE"}
+timedTextStyleOverrides={"backgroundColor":null,"backgroundOpacity":null,"characterColor":null,"characterEdgeAttributes":null,"characterEdgeColor":null,"characterOpacity":null,"characterSize":null,"characterStyle":null,"windowColor":null,"windowOpacity":null}
+useStarRatings=false
+useThumbRatings=true
+largeDisplayDimensionThreshold={"height":900,"width":1600}
+maxAutoPlaySeconds=15
+autoplayInterrupterTimestamp=120000
+ignoreUserActivity=false
+webkitDecodedFrameCountIncorrectlyReported=true
+secureUrls=true
+playerUpsellEnabled=true
+skipCreditsEnabled=true
+skipCreditsDisplayDuration=6000
+bookmarkByMovieId={}
+preciseSeeking=true
+focusPlayerWrapperAfterControlClick=false
+limitedSVGSupport=false
+maxTrackLengthUI=7
+uiContextConfig_motionBillboard={"preferredEngine":"cadmium"}
+uiContextConfig_bigRow={"preferredEngine":"cadmium"}
+uiContextConfig_embedded={"preferredEngine":null}
+feedback={"minChars":75,"maxChars":1000}
+resetControlFocusAfterClick=true
+prepare=true
+browserInfo={"name":"Chrome","version":"60.0.3109","major":60,"os":{"name":"Mac OS X","fullName":"Mac OS X","version":"10.12.3"},"isFirefox":false,"isSafari":false,"isIE":false,"isEdge":false,"isChrome":true,"isOpera":false,"isWindows":false,"isMac":true,"isChromeOS":false,"isLinux":false,"isAndroid":false,"isIOS":false,"isIOSGT91":false,"isWindowsPhone":false,"isMobile":false,"isWindowsVista":false,"isWindowsXP":false,"isWindows7":false,"isWindows8":false,"isWindows10":false,"originallyIdentifiedAsAppleMail":false,"features":{"webp":true,"es2015":true,"maybeSupportsHTML5withDRM":true,"maybeSupportsSL":false,"maybeSupportsHTML5":true,"drmSystem":"widevine"},"specialFlags":{},"esnPrefix":"NFCDCH-MC-","_rawResult":{"family":"Chrome","major":"60","minor":"0","patch":"3109","device":{"family":"Other","major":"0","minor":"0","patch":"0"},"os":{"family":"Mac OS X","major":"10","minor":"12","patch":"3"}}}
+playdataPrepareRequest=false
+notifyOpenConnectBlackBox=true
+histAggregationTimeSpanInSeconds=600
+secureStopEnabled=false
+mslEndpoint="https://www.netflix.com/api/msl/"
+congestionServiceApiEndpoint="https://www.netflix.com/api/cbp/html5player/congestion"
+pingOnConnectTimeout=true
+endpoint=true
+usePerformanceApi="false"
+enableVerbosePlaydelayLogging=true
+downloadReportDenominator=10
+prepareStrategy="ppm"
+prepareManifestCacheMaxCount=50
+prepareLdlCacheMaxCount=30
+ppmConfig={"holdDuration":300000,"colEpisodeList":1,"rowFirst":1,"colFirst":1,"rowScroll":1,"colScroll":3,"rowScrollHorizontal":3,"searchTop":1,"cwFirst":2,"gridFirst":0,"gridScroll":0,"genre":2}
+supportPreviewContent=true
+useSetServerCertificateApi=true
+groupName="Test7890.Cell1"
+esn="NFCDCH-MC-DKDKU7U1AC5HHU4LVRNYADT7VYD70Y"
+5.861|0|T|VideoPreparer| manifest exists in cache for 80025313
+5.862|0|T|VideoPreparer| prepare tasks, 0: 80025313-ldl, 1: 80025313-getHeadersAndMedia
+5.862|0|T|VideoPreparer| adding tasks, number of tasks: 2
+5.862|0|T|VideoPreparer| cache miss: no data exists for field:ldl
+5.864|0|T|VideoPreparer| ldl not available in cache
+unavailable
+5.864|0|T|VideoPreparer| cache hit: manifest request in flight for movieId:80025313
+6.939|0|T|General| Config applied for
+environment="prod"
+preferredLanguages="en-US"
+supportPhoneNumber="1-866-579-7172"
+errorSupportUrls={"F7031-1102":"25078","H7053-1803":"14452","H7111-1101":"14563","H7354":"12993","H7361-1253-80070005":"32876","M7355-1203":"22952","M7357-1003":"14759","C7357-1003":"14759","M7357-1269":"14759","C7357-1269":"14759","M7701-1003":"27451","M7702-1003":"30321","S7354":"25711","S7363-1266-0000230D":"25704","S7363-1266-00002E3F":"32701","F7053-1803":"32660","F7701-1003":"32661","S7363-1266-48444350":"22497","O7702-1003":"40838"}
+chromeVersion="Chrome 60.0.3109"
+windowScaling=true
+uimode="akira"
+apiUrl="https://www.netflix.com/api/shakti/7d9a2e5d"
+postPlayApiRevision=""
+preserveLastFrame=true
+mdx2Enabled=true
+hideSupportUrl=false
+uiTrackingEnabled=true
+uiTrackingEndpoint="/uitracking/users/presentationtracking"
+uiVersion="akira"
+enableTrickPlay=true
+breakOnError=false
+disableVideoRightClickMenu=false
+renderTimedText=true
+postPlayBaseUrl="https://www.netflix.com/api/shakti/7d9a2e5d/postplay"
+reportAProblemEndpoint="https://www.netflix.com/api/shakti/7d9a2e5d/reportproblem"
+reportProblemEnabled=true
+metadataBaseServer="https://www.netflix.com/api/shakti/7d9a2e5d"
+akiraMetadataStrategy="shakti"
+forceCCPaint=true
+requestFromNetflix=true
+pinConfig={"isEnabled":false,"resetUrl":"https://www.netflix.com/player/pinreset","pinResetOnNonPinContent":false,"isAdultVerified":true,"apiEndpoint":"https://www.netflix.com/api/shakti/7d9a2e5d/pin/service"}
+timedTextStyleDefaults={"backgroundColor":null,"backgroundOpacity":"OPAQUE","characterColor":"YELLOW","characterEdgeAttributes":"DROP_SHADOW","characterEdgeColor":"BLACK","characterOpacity":"OPAQUE","characterSize":"MEDIUM","characterStyle":"PROPORTIONAL_SANS_SERIF","windowColor":null,"windowOpacity":"OPAQUE"}
+timedTextStyleOverrides={"backgroundColor":null,"backgroundOpacity":null,"characterColor":null,"characterEdgeAttributes":null,"characterEdgeColor":null,"characterOpacity":null,"characterSize":null,"characterStyle":null,"windowColor":null,"windowOpacity":null}
+useStarRatings=false
+useThumbRatings=true
+largeDisplayDimensionThreshold={"height":900,"width":1600}
+maxAutoPlaySeconds=15
+autoplayInterrupterTimestamp=120000
+ignoreUserActivity=false
+webkitDecodedFrameCountIncorrectlyReported=true
+secureUrls=true
+playerUpsellEnabled=true
+skipCreditsEnabled=true
+skipCreditsDisplayDuration=6000
+bookmarkByMovieId={}
+preciseSeeking=true
+focusPlayerWrapperAfterControlClick=false
+limitedSVGSupport=false
+maxTrackLengthUI=7
+uiContextConfig_motionBillboard={"preferredEngine":"cadmium"}
+uiContextConfig_bigRow={"preferredEngine":"cadmium"}
+uiContextConfig_embedded={"preferredEngine":null}
+feedback={"minChars":75,"maxChars":1000}
+resetControlFocusAfterClick=true
+prepare=true
+browserInfo={"name":"Chrome","version":"60.0.3109","major":60,"os":{"name":"Mac OS X","fullName":"Mac OS X","version":"10.12.3"},"isFirefox":false,"isSafari":false,"isIE":false,"isEdge":false,"isChrome":true,"isOpera":false,"isWindows":false,"isMac":true,"isChromeOS":false,"isLinux":false,"isAndroid":false,"isIOS":false,"isIOSGT91":false,"isWindowsPhone":false,"isMobile":false,"isWindowsVista":false,"isWindowsXP":false,"isWindows7":false,"isWindows8":false,"isWindows10":false,"originallyIdentifiedAsAppleMail":false,"features":{"webp":true,"es2015":true,"maybeSupportsHTML5withDRM":true,"maybeSupportsSL":false,"maybeSupportsHTML5":true,"drmSystem":"widevine"},"specialFlags":{},"esnPrefix":"NFCDCH-MC-","_rawResult":{"family":"Chrome","major":"60","minor":"0","patch":"3109","device":{"family":"Other","major":"0","minor":"0","patch":"0"},"os":{"family":"Mac OS X","major":"10","minor":"12","patch":"3"}}}
+playdataPrepareRequest=false
+notifyOpenConnectBlackBox=true
+histAggregationTimeSpanInSeconds=600
+secureStopEnabled=false
+mslEndpoint="https://www.netflix.com/api/msl/"
+congestionServiceApiEndpoint="https://www.netflix.com/api/cbp/html5player/congestion"
+pingOnConnectTimeout=true
+endpoint=true
+usePerformanceApi="false"
+enableVerbosePlaydelayLogging=true
+downloadReportDenominator=10
+prepareStrategy="ppm"
+prepareManifestCacheMaxCount=50
+prepareLdlCacheMaxCount=30
+ppmConfig={"holdDuration":300000,"colEpisodeList":1,"rowFirst":1,"colFirst":1,"rowScroll":1,"colScroll":3,"rowScrollHorizontal":3,"searchTop":1,"cwFirst":2,"gridFirst":0,"gridScroll":0,"genre":2}
+supportPreviewContent=true
+useSetServerCertificateApi=true
+groupName="Test7890.Cell1"
+esn="NFCDCH-MC-DKDKU7U1AC5HHU4LVRNYADT7VYD70Y"
+6.939|0|T|VideoPreparer| manifest exists in cache for 80025313
+6.940|0|T|VideoPreparer| prepare tasks, 0: 80025313-ldl, 1: 80025313-getHeadersAndMedia
+6.940|0|T|VideoPreparer| adding tasks, number of tasks: 2
+6.940|0|T|VideoPreparer| cache miss: no data exists for field:ldl
+6.940|0|T|VideoPreparer| ldl not available in cache
+unavailable
+6.940|0|T|VideoPreparer| cache hit: manifest request in flight for movieId:80025313
+6.955|0|T|General| Config applied for
+environment="prod"
+preferredLanguages="en-US"
+supportPhoneNumber="1-866-579-7172"
+errorSupportUrls={"F7031-1102":"25078","H7053-1803":"14452","H7111-1101":"14563","H7354":"12993","H7361-1253-80070005":"32876","M7355-1203":"22952","M7357-1003":"14759","C7357-1003":"14759","M7357-1269":"14759","C7357-1269":"14759","M7701-1003":"27451","M7702-1003":"30321","S7354":"25711","S7363-1266-0000230D":"25704","S7363-1266-00002E3F":"32701","F7053-1803":"32660","F7701-1003":"32661","S7363-1266-48444350":"22497","O7702-1003":"40838"}
+chromeVersion="Chrome 60.0.3109"
+windowScaling=true
+uimode="akira"
+apiUrl="https://www.netflix.com/api/shakti/7d9a2e5d"
+postPlayApiRevision=""
+preserveLastFrame=true
+mdx2Enabled=true
+hideSupportUrl=false
+uiTrackingEnabled=true
+uiTrackingEndpoint="/uitracking/users/presentationtracking"
+uiVersion="akira"
+enableTrickPlay=true
+breakOnError=false
+disableVideoRightClickMenu=false
+renderTimedText=true
+postPlayBaseUrl="https://www.netflix.com/api/shakti/7d9a2e5d/postplay"
+reportAProblemEndpoint="https://www.netflix.com/api/shakti/7d9a2e5d/reportproblem"
+reportProblemEnabled=true
+metadataBaseServer="https://www.netflix.com/api/shakti/7d9a2e5d"
+akiraMetadataStrategy="shakti"
+forceCCPaint=true
+requestFromNetflix=true
+pinConfig={"isEnabled":false,"resetUrl":"https://www.netflix.com/player/pinreset","pinResetOnNonPinContent":false,"isAdultVerified":true,"apiEndpoint":"https://www.netflix.com/api/shakti/7d9a2e5d/pin/service"}
+timedTextStyleDefaults={"backgroundColor":null,"backgroundOpacity":"OPAQUE","characterColor":"YELLOW","characterEdgeAttributes":"DROP_SHADOW","characterEdgeColor":"BLACK","characterOpacity":"OPAQUE","characterSize":"MEDIUM","characterStyle":"PROPORTIONAL_SANS_SERIF","windowColor":null,"windowOpacity":"OPAQUE"}
+timedTextStyleOverrides={"backgroundColor":null,"backgroundOpacity":null,"characterColor":null,"characterEdgeAttributes":null,"characterEdgeColor":null,"characterOpacity":null,"characterSize":null,"characterStyle":null,"windowColor":null,"windowOpacity":null}
+useStarRatings=false
+useThumbRatings=true
+largeDisplayDimensionThreshold={"height":900,"width":1600}
+maxAutoPlaySeconds=15
+autoplayInterrupterTimestamp=120000
+ignoreUserActivity=false
+webkitDecodedFrameCountIncorrectlyReported=true
+secureUrls=true
+playerUpsellEnabled=true
+skipCreditsEnabled=true
+skipCreditsDisplayDuration=6000
+bookmarkByMovieId={}
+preciseSeeking=true
+focusPlayerWrapperAfterControlClick=false
+limitedSVGSupport=false
+maxTrackLengthUI=7
+uiContextConfig_motionBillboard={"preferredEngine":"cadmium"}
+uiContextConfig_bigRow={"preferredEngine":"cadmium"}
+uiContextConfig_embedded={"preferredEngine":null}
+feedback={"minChars":75,"maxChars":1000}
+resetControlFocusAfterClick=true
+prepare=true
+browserInfo={"name":"Chrome","version":"60.0.3109","major":60,"os":{"name":"Mac OS X","fullName":"Mac OS X","version":"10.12.3"},"isFirefox":false,"isSafari":false,"isIE":false,"isEdge":false,"isChrome":true,"isOpera":false,"isWindows":false,"isMac":true,"isChromeOS":false,"isLinux":false,"isAndroid":false,"isIOS":false,"isIOSGT91":false,"isWindowsPhone":false,"isMobile":false,"isWindowsVista":false,"isWindowsXP":false,"isWindows7":false,"isWindows8":false,"isWindows10":false,"originallyIdentifiedAsAppleMail":false,"features":{"webp":true,"es2015":true,"maybeSupportsHTML5withDRM":true,"maybeSupportsSL":false,"maybeSupportsHTML5":true,"drmSystem":"widevine"},"specialFlags":{},"esnPrefix":"NFCDCH-MC-","_rawResult":{"family":"Chrome","major":"60","minor":"0","patch":"3109","device":{"family":"Other","major":"0","minor":"0","patch":"0"},"os":{"family":"Mac OS X","major":"10","minor":"12","patch":"3"}}}
+playdataPrepareRequest=false
+notifyOpenConnectBlackBox=true
+histAggregationTimeSpanInSeconds=600
+secureStopEnabled=false
+mslEndpoint="https://www.netflix.com/api/msl/"
+congestionServiceApiEndpoint="https://www.netflix.com/api/cbp/html5player/congestion"
+pingOnConnectTimeout=true
+endpoint=true
+usePerformanceApi="false"
+enableVerbosePlaydelayLogging=true
+downloadReportDenominator=10
+prepareStrategy="ppm"
+prepareManifestCacheMaxCount=50
+prepareLdlCacheMaxCount=30
+ppmConfig={"holdDuration":300000,"colEpisodeList":1,"rowFirst":1,"colFirst":1,"rowScroll":1,"colScroll":3,"rowScrollHorizontal":3,"searchTop":1,"cwFirst":2,"gridFirst":0,"gridScroll":0,"genre":2}
+supportPreviewContent=true
+useSetServerCertificateApi=true
+groupName="Test7890.Cell1"
+esn="NFCDCH-MC-DKDKU7U1AC5HHU4LVRNYADT7VYD70Y"
+6.955|0|T|VideoPreparer| manifest exists in cache for 80025313
+6.956|0|T|VideoPreparer| prepare tasks, 0: 80025313-ldl, 1: 80025313-getHeadersAndMedia
+6.956|0|T|VideoPreparer| adding tasks, number of tasks: 2
+6.956|0|T|VideoPreparer| cache miss: no data exists for field:ldl
+6.956|0|T|VideoPreparer| ldl not available in cache
+unavailable
+6.957|0|T|VideoPreparer| cache hit: manifest request in flight for movieId:80025313
+7.869|0|T|General| Config applied for
+playableId=80025313
+episodeId=80025313
+uiLabel="standard"
+backToBrowsingUrl="/title/80025313"
+trackingId=14170287
+playcontext={"location":"WATCHNOW","row":"0","rank":"0","request_id":"f33e8fc1-bc27-4aa2-8d29-abb3c0a30460-335558081"}
+signoutUrl="/SignOut?lnkctr=mL"
+referrerIsNetflix=true
+assistiveAudioPreferred=false
+pinConfig={"adultVerificationUrl":"https://www.netflix.com/verifyage?videoid=80025313","isEnabled":false,"resetUrl":"https://www.netflix.com/player/pinreset","pinResetOnNonPinContent":false,"isAdultVerified":true,"apiEndpoint":"https://www.netflix.com/api/shakti/7d9a2e5d/pin/service"}
+nccpAppId="149568187340297039"
+appId="149568187340297039"
+nccpSessionId="149568187372203113"
+sessionId="149568187372203113"
+environment="prod"
+preferredLanguages="en-US"
+supportPhoneNumber="1-866-579-7172"
+errorSupportUrls={"F7031-1102":"25078","H7053-1803":"14452","H7111-1101":"14563","H7354":"12993","H7361-1253-80070005":"32876","M7355-1203":"22952","M7357-1003":"14759","C7357-1003":"14759","M7357-1269":"14759","C7357-1269":"14759","M7701-1003":"27451","M7702-1003":"30321","S7354":"25711","S7363-1266-0000230D":"25704","S7363-1266-00002E3F":"32701","F7053-1803":"32660","F7701-1003":"32661","S7363-1266-48444350":"22497","O7702-1003":"40838"}
+chromeVersion="Chrome 60.0.3109"
+windowScaling=true
+uimode="akira"
+apiUrl="https://www.netflix.com/api/shakti/7d9a2e5d"
+postPlayApiRevision=""
+preserveLastFrame=true
+mdx2Enabled=true
+hideSupportUrl=false
+uiTrackingEnabled=true
+uiTrackingEndpoint="/uitracking/users/presentationtracking"
+uiVersion="akira"
+enableTrickPlay=true
+breakOnError=false
+disableVideoRightClickMenu=false
+renderTimedText=true
+postPlayBaseUrl="https://www.netflix.com/api/shakti/7d9a2e5d/postplay"
+reportAProblemEndpoint="https://www.netflix.com/api/shakti/7d9a2e5d/reportproblem"
+reportProblemEnabled=true
+metadataBaseServer="https://www.netflix.com/api/shakti/7d9a2e5d"
+akiraMetadataStrategy="shakti"
+forceCCPaint=true
+requestFromNetflix=true
+timedTextStyleDefaults={"backgroundColor":null,"backgroundOpacity":"OPAQUE","characterColor":"YELLOW","characterEdgeAttributes":"DROP_SHADOW","characterEdgeColor":"BLACK","characterOpacity":"OPAQUE","characterSize":"MEDIUM","characterStyle":"PROPORTIONAL_SANS_SERIF","windowColor":null,"windowOpacity":"OPAQUE"}
+timedTextStyleOverrides={"backgroundColor":null,"backgroundOpacity":null,"characterColor":null,"characterEdgeAttributes":null,"characterEdgeColor":null,"characterOpacity":null,"characterSize":null,"characterStyle":null,"windowColor":null,"windowOpacity":null}
+useStarRatings=false
+useThumbRatings=true
+largeDisplayDimensionThreshold={"height":900,"width":1600}
+maxAutoPlaySeconds=15
+autoplayInterrupterTimestamp=120000
+ignoreUserActivity=false
+webkitDecodedFrameCountIncorrectlyReported=true
+secureUrls=true
+playerUpsellEnabled=true
+skipCreditsEnabled=true
+skipCreditsDisplayDuration=6000
+bookmarkByMovieId={}
+preciseSeeking=true
+focusPlayerWrapperAfterControlClick=false
+limitedSVGSupport=false
+maxTrackLengthUI=7
+uiContextConfig_motionBillboard={"preferredEngine":"cadmium"}
+uiContextConfig_bigRow={"preferredEngine":"cadmium"}
+uiContextConfig_embedded={"preferredEngine":null}
+feedback={"minChars":75,"maxChars":1000}
+resetControlFocusAfterClick=true
+prepare=true
+browserInfo={"name":"Chrome","version":"60.0.3109","major":60,"os":{"name":"Mac OS X","fullName":"Mac OS X","version":"10.12.3"},"isFirefox":false,"isSafari":false,"isIE":false,"isEdge":false,"isChrome":true,"isOpera":false,"isWindows":false,"isMac":true,"isChromeOS":false,"isLinux":false,"isAndroid":false,"isIOS":false,"isIOSGT91":false,"isWindowsPhone":false,"isMobile":false,"isWindowsVista":false,"isWindowsXP":false,"isWindows7":false,"isWindows8":false,"isWindows10":false,"originallyIdentifiedAsAppleMail":false,"features":{"webp":true,"es2015":true,"maybeSupportsHTML5withDRM":true,"maybeSupportsSL":false,"maybeSupportsHTML5":true,"drmSystem":"widevine"},"specialFlags":{},"esnPrefix":"NFCDCH-MC-","_rawResult":{"family":"Chrome","major":"60","minor":"0","patch":"3109","device":{"family":"Other","major":"0","minor":"0","patch":"0"},"os":{"family":"Mac OS X","major":"10","minor":"12","patch":"3"}}}
+playdataPrepareRequest=false
+notifyOpenConnectBlackBox=true
+histAggregationTimeSpanInSeconds=600
+secureStopEnabled=false
+mslEndpoint="https://www.netflix.com/api/msl/"
+congestionServiceApiEndpoint="https://www.netflix.com/api/cbp/html5player/congestion"
+pingOnConnectTimeout=true
+endpoint=true
+usePerformanceApi="false"
+enableVerbosePlaydelayLogging=true
+downloadReportDenominator=10
+prepareStrategy="ppm"
+prepareManifestCacheMaxCount=50
+prepareLdlCacheMaxCount=30
+ppmConfig={"holdDuration":300000,"colEpisodeList":1,"rowFirst":1,"colFirst":1,"rowScroll":1,"colScroll":3,"rowScrollHorizontal":3,"searchTop":1,"cwFirst":2,"gridFirst":0,"gridScroll":0,"genre":2}
+supportPreviewContent=true
+useSetServerCertificateApi=true
+groupName="Test7890.Cell1"
+esn="NFCDCH-MC-DKDKU7U1AC5HHU4LVRNYADT7VYD70Y"
+endPtsByViewableId={"80025313":3368000}
+7.911|0|T|Ext| loader.manager: attemptLoadVideo, attemptedBuffering: false, id: 80025313
+7.911|0|T|Ext| loader.manager: attemptLoadVideo, create video player, attemptedBuffering: true, id: 80025313
+7.912|0|I|Ext| object.pool: Setting play context:, location: WATCHNOW, row: 0, rank: 0, request_id: f33e8fc1-bc27-4aa2-8d29-abb3c0a30460-335558081
+7.916|0|I|VideoPlayer| Next episode added, movieId: 80025313, playbackParams: [object Object], uiLabel: standard, manifestData: undefined
+7.917|0|I|SegmentManager| Adding segment
+{"movieId":80025313,"uiLabel":"standard","params":{"trackingId":14170287,"authParams":{"pinCapableClient":false},"sessionParams":{"uiplaycontext":{"row":"0","rank":"0","location":"WATCHNOW","request_id":"f33e8fc1-bc27-4aa2-8d29-abb3c0a30460-335558081"},"supportsWatermark":true,"supportsPreReleasePin":true},"disableTrackStickiness":false,"uiPlayStartTime":1495681880062}}
+7.917|0|T|SegmentManager| First segment, loading, movieId: 80025313, uiLabel: standard
+7.918|0|I|SegmentManager| Loading the next episode, movieId: 80025313, uiLabel: standard
+7.918|0|T|SegmentManager| Found the next session, movieId: 80025313, uiLabel: standard
+7.919|0|T|SegmentManager| First playback transitioning immediately, movieId: 80025313, uiLabel: standard
+7.919|0|T|SegmentManager| Loading new segment, movieId: 80025313, uiLabel: standard
+7.923|1|I|PlaybackASE| Playback created, MovieId: 80025313, TrackingId: 14170287, Xid: 14956818733232
+7.923|1|T|PlaybackASE| Playback not selected for trace playback info logging
+7.923|0|T|VideoPreparer| task scheduler paused on playback created
+7.931|0|T|General| adding movieId to playback map, 80025313
+7.931|0|T|SegmentManager| Playing episode, movieId: 80025313, uiLabel: standard
+7.933|0|T|Ext| view.master: new player created, appending element to dom
+7.934|1|I|Playback| Playback loading, MovieId: 80025313, TrackingId: 14170287, Xid: 14956818733232
+7.934|1|I|PlaybackASE| Playback state changed, From: 0, To: 1
+7.975|0|T|StorageLock| Lock acquired, Name: lock-playback
+7.975|1|T|PlaybackASE| Milestone, Id: ic
+7.976|1|I|Playback| Authorizing, MovieId: 80025313, TrackingId: 14170287, Xid: 14956818733232
+7.976|1|T|PlaybackASE| Milestone, Id: ats
+7.977|0|T|VideoPreparer| cache hit: manifest request in flight for movieId:80025313
+7.982|0|T|Msl| Sent MSL header, NccpMethod: manifest, UserId: browser, UT: null, MT: 5913070915037797:1, STCount: 0
+
+8.737|0|T|Ext| success loading metadata
+8.823|0|T|Msl| Received MSL header, NccpMethod: manifest, UserId: browser, UT: 1491989661949316, MT: 5913070915037797:1, STCount: 1
+8.823|0|T|Msl| Adding UserIdToken, UserId: browser, SerialNumber: 1491989661949316, MTSerialNumber: 5913070915037797, Expiration: 1496891481000
+8.824|0|T|Msl| Received MSL response, Method: manifest
+8.899|0|T|VideoPreparer| Received EDGE response, Method: manifest
+8.900|0|T|VideoPreparer| manifest response for:80025313, status: true
+8.901|0|T|VideoPreparer| task succeeded, id: 1, type: manifest, created: 2728, status: succeeded, movieId: 80025313, startTime: 2731, duration: 6170, endTime: 8901
+8.906|0|T|General| cached mediakeys count 0
+8.906|0|T|VideoPreparer| Milestone: lg, 8906
+8.906|0|T|VideoPreparer| Creating the mediakeys: com.widevine.alpha
+8.907|0|T|VideoPreparer| cancelled task, id: 6, type: ldl, created: 5428, status: cancelled, movieId: 80025313, startTime: 5429, duration: 3478, endTime: 8907
+8.907|0|T|VideoPreparer| cancelled task, id: 8, type: ldl, created: 5861, status: cancelled, movieId: 80025313, startTime: 5862, duration: 3045, endTime: 8907
+8.908|0|T|VideoPreparer| cancelled task, id: 10, type: ldl, created: 6939, status: cancelled, movieId: 80025313, startTime: 6940, duration: 1967, endTime: 8907
+8.908|0|T|VideoPreparer| cancelled task, id: 12, type: ldl, created: 6956, status: cancelled, movieId: 80025313, startTime: 6956, duration: 1952, endTime: 8908
+8.908|0|T|VideoPreparer| in paused state, currentTaskIndex: 1, numberOfTasks: 2
+8.908|1|T|NccpPlayback| Auth Delay: 932
+8.910|1|T|BladeRunnerParseManifest| Transformed locations, Count: 7
+8.910|1|T|BladeRunnerParseManifest| Transformed cdns, Count: 9
+8.911|1|T|BladeRunnerParseManifest| Transformed trick play tracks, Count: 2
+8.914|1|T|BladeRunnerParseManifest| Transformed timed text track, Bcp47: en, TrackId: T:1:0;1;en;1;1;, DownloadableId: 1628660453
+8.914|1|T|BladeRunnerParseManifest| Transformed timed text track, Bcp47: en, TrackId: T:1:1;1;en;0;0;, DownloadableId: 1628761434
+8.914|1|T|BladeRunnerParseManifest| Transformed timed text track, Bcp47: fr, TrackId: T:1:0;1;fr;0;0;, DownloadableId: 1568673454
+8.915|1|T|BladeRunnerParseManifest| Transformed timed text track, Bcp47: es, TrackId: T:1:1;1;es;0;0;, DownloadableId: 1568647836
+8.915|1|T|BladeRunnerParseManifest| Transformed timed text track, Bcp47: zh-Hant, TrackId: T:1:0;1;zh-Hant;0;0;, DownloadableId: 1287786557
+8.915|1|T|BladeRunnerParseManifest| Transformed timed text track, Bcp47: zh-Hans, TrackId: T:1:0;1;zh-Hans;0;0;, DownloadableId: 1287787195
+8.916|1|T|BladeRunnerParseManifest| Transformed timed text track, Bcp47: es, TrackId: T:1:0;1;es;1;1;, DownloadableId: 1766613133
+8.916|1|T|BladeRunnerParseManifest| Transformed timed text track, Bcp47: fr, TrackId: T:1:0;1;fr;1;1;, DownloadableId: 2147081507
+8.916|1|T|BladeRunnerParseManifest| Transformed timed text track, Bcp47: de, TrackId: T:1:0;1;de;1;1;, DownloadableId: 2147082014
+8.916|1|T|BladeRunnerParseManifest| Transformed timed text track, Bcp47: it, TrackId: T:1:0;1;it;1;1;, DownloadableId: 218198649
+8.917|1|T|BladeRunnerParseManifest| Transformed timed text tracks, Count: 10
+8.919|1|T|BladeRunnerParseManifest| Transformed audio track, type: audio, kb: A:1:1;2;en;1;, CQ: PRIMARY, JD: PRIMARY, pf: en, displayName: English, XJ: 2.0, REa: 2.0, QEa: 2, Ni: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object], fHa: [object Object], na: [object Object],[object Object], XEa: AAC, dP: [object Object], StreamCount: 2, AllowedTimedTextTracks: 6
+8.920|1|T|BladeRunnerParseManifest| Transformed audio track, type: audio, kb: A:1:1;2;es;0;, CQ: PRIMARY, JD: PRIMARY, pf: es, displayName: Spanish, XJ: 2.0, REa: 2.0, QEa: 2, Ni: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object], fHa: [object Object], na: [object Object],[object Object], XEa: AAC, dP: [object Object], StreamCount: 2, AllowedTimedTextTracks: 6
+8.920|1|T|BladeRunnerParseManifest| Transformed audio track, type: audio, kb: A:1:1;2;fr;0;, CQ: PRIMARY, JD: PRIMARY, pf: fr, displayName: French, XJ: 2.0, REa: 2.0, QEa: 2, Ni: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object], fHa: [object Object], na: [object Object],[object Object], XEa: AAC, dP: [object Object], StreamCount: 2, AllowedTimedTextTracks: 6
+8.921|1|T|BladeRunnerParseManifest| Transformed audio track, type: audio, kb: A:1:1;2;de;0;, CQ: PRIMARY, JD: PRIMARY, pf: de, displayName: German, XJ: 2.0, REa: 2.0, QEa: 2, Ni: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object], fHa: [object Object], na: [object Object],[object Object], XEa: AAC, dP: [object Object], StreamCount: 2, AllowedTimedTextTracks: 6
+8.921|1|T|BladeRunnerParseManifest| Transformed audio track, type: audio, kb: A:1:1;2;it;0;, CQ: PRIMARY, JD: PRIMARY, pf: it, displayName: Italian, XJ: 2.0, REa: 2.0, QEa: 2, Ni: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object], fHa: [object Object], na: [object Object],[object Object], XEa: AAC, dP: [object Object], StreamCount: 2, AllowedTimedTextTracks: 6
+8.922|1|T|BladeRunnerParseManifest| Transformed audio track, type: audio, kb: A:1:2;2;en;0;, CQ: ASSISTIVE, JD: ASSISTIVE, pf: en, displayName: English - Audio Description, XJ: 2.0, REa: 2.0, QEa: 2, Ni: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object], fHa: [object Object], na: [object Object],[object Object], XEa: AAC, dP: [object Object], StreamCount: 2, AllowedTimedTextTracks: 6
+8.922|1|T|BladeRunnerParseManifest| Transformed audio track, type: audio, kb: A:1:2;2;es;0;, CQ: ASSISTIVE, JD: ASSISTIVE, pf: es, displayName: Spanish - Audio Description, XJ: 2.0, REa: 2.0, QEa: 2, Ni: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object], fHa: [object Object], na: [object Object],[object Object], XEa: AAC, dP: [object Object], StreamCount: 2, AllowedTimedTextTracks: 6
+8.922|1|T|BladeRunnerParseManifest| Transformed audio tracks, Count: 7
+8.923|1|T|BladeRunnerParseManifest| Transformed video track, StreamCount: 9
+8.923|1|T|BladeRunnerParseManifest| Transformed video tracks, Count: 1
+8.925|1|I|PlaybackASE| AudioTrack changed, ToBcp47: en, To: A:1:1;2;en;1;, MediaTime: undefined
+8.926|1|I|PlaybackASE| TimedTextTrack changed, ToBcp47: en, To: T:1:0;1;en;1;1;, From: none, MediaTime: undefined
+8.927|1|T|PlaybackASE| Milestone, Id: at
+8.927|0|T|General| importing milestones, pr_ats: 2733, pr_at: 8900
+8.930|1|I|Playback| Processing post-authorize, MovieId: 80025313, TrackingId: 14170287, Xid: 14956818733232
+8.933|1|T|PlaybackASE| Milestone, Id: shs
+8.964|1|T|CadmiumMediaStream| Downloading header, Cdn: 45658, Type: video, Bitrate: 460, DownloadableId: 567331102, Resolution: 682:384
+8.966|1|T|CadmiumMediaStream| Downloading header, Cdn: 39865, Type: audio, Bitrate: 64, DownloadableId: 567482523
+8.967|0|T|VideoPreparer| keysystemaccess config
+{
+ "audioCapabilities": [
+  {
+   "contentType": "audio/mp4; codecs=\"mp4a.40.5\"",
+   "robustness": "SW_SECURE_CRYPTO"
+  }
+ ],
+ "distinctiveIdentifier": "not-allowed",
+ "initDataTypes": [
+  "cenc"
+ ],
+ "label": "",
+ "persistentState": "required",
+ "sessionTypes": [
+  "temporary"
+ ],
+ "videoCapabilities": [
+  {
+   "contentType": "video/mp4; codecs=\"avc1.640028\"",
+   "robustness": "SW_SECURE_DECODE"
+  },
+  {
+   "contentType": "video/mp4; codecs=\"avc1.640028\"",
+   "robustness": "SW_SECURE_CRYPTO"
+  }
+ ]
+}
+9.329|0|T|VideoPreparer| calling setServerCertificate
+9.361|0|T|VideoPreparer| mediakeys resolved
+9.363|0|T|VideoPreparer| LICENSE: Creating the key session.
+9.367|0|T|VideoPreparer| LICENSE: Calling generateRequest, initDataType: cenc, initData: AAAANHBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAABQIARIQAAAAAAPWUT0AAAAAAAAAAA==
+9.459|1|T|CadmiumMediaStream| Header parsed, Chunks: 215, Type: audio, Bitrate: 64, DownloadableId: 567482523
+9.476|1|T|CadmiumMediaStream| Header parsed, Chunks: 859, Type: video, Bitrate: 460, DownloadableId: 567331102, Resolution: 682:384
+9.479|1|T|PlaybackASE| Milestone, Id: sh
+9.479|1|T|Playback| Initializing primary streams and MediaBuffer
+9.493|1|T|MediaElementASE| Created Media Element
+9.790|1|I|PlaybackASE| Starting inactivity monitor for movie 80025313
+9.792|1|I|PlaybackASE| Playback state changed, From: 1, To: 2
+9.825|1|T|MediaElementASE| Video element event: loadstart
+9.852|0|T|MediaSourceASE| Inside MediaSourceASE
+9.857|1|T|MediaElementASE| Adding source buffer, Type: 1, TypeId: video/mp4;codecs=avc1.640028
+9.862|1|T|MediaElementASE| Adding source buffer, Type: 0, TypeId: audio/mp4; codecs="mp4a.40.5"
+9.863|1|T|MediaPresenterASE| sourceBuffers have been created. Initialize MediaPresenter.
+9.865|1|T|MediaPresenterASE| Video element initializing
+9.867|1|T|MediaPresenterASE| Feeding init segment to decoder, Type: audio, Bitrate: 64, DownloadableId: 567482523, Bytes: 691
+9.868|1|T|MediaPresenterASE| Feeding init segment to decoder, Type: video, Bitrate: 460, DownloadableId: 567331102, Resolution: 682:384, Bytes: 1854
+9.868|1|T|MediaPresenterASE| Waiting for needkey
+9.868|1|T|MediaPresenterASE| Waiting for loadedmetadata
+9.870|1|I|MediaPresenterASE| Seeking, Requested: 295.000, Actual: 295.001, Cause: 1
+9.896|1|T|MediaElementASE| Received event: encrypted
+9.896|0|T|VideoPreparer| cache hit: ldl available for movieId:80025313
+9.897|1|T|MediaPresenterASE| Video element event: loadedmetadata
+9.897|1|T|PlaybackASE| Milestone, Id: md
+9.973|0|W|ASEJS|media|asejs| findNewStreamIndex unable to find stream for bitrate: 0 returning index: 0
+9.975|1|T|CadmiumMediaStream| Downloading header, Cdn: 38771, Type: video, Bitrate: 150, DownloadableId: 567338769, Resolution: 426:240
+10.025|1|T|MediaBuffer| Received chunk, Type: audio, Chunk index: 18, StartTime: 288.042, EndTime: 304.042, CdnId: 39865, AudioBufferLength: 9.041, VideoBufferLength: 0.000
+10.034|0|I|ASEJS_STREAM_SELECTOR|media|asejs| BUFFERING COMPLETE BL(16000)  FC(1) 
+10.090|1|T|CadmiumMediaStream| Header parsed, Chunks: 859, Type: video, Bitrate: 150, DownloadableId: 567338769, Resolution: 426:240
+10.094|0|W|ASEJS|media|asejs| drm header MediaRequest: ID: 5, isHeader:true, ptsStart:undefined, responseType: 0, duration: undefined, readystate: 5, bitrate:150, but no headers seen, marking pipeline drmReady
+10.110|1|T|MediaBuffer| Received chunk, Type: audio, Chunk index: 19, StartTime: 304.042, EndTime: 320.042, CdnId: 39865, AudioBufferLength: 25.041, VideoBufferLength: 0.000
+10.118|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 74, StartTime: 296.296, EndTime: 300.300, CdnId: 45658, AudioBufferLength: 25.041, VideoBufferLength: 0.000
+10.211|0|I|ASEJS_STREAM_SELECTOR|media|asejs| BUFFERING COMPLETE BL(8008)  FC(2) 
+10.212|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 73, StartTime: 292.292, EndTime: 296.296, CdnId: 45658, AudioBufferLength: 25.041, VideoBufferLength: 5.299
+10.215|0|I|ASEJS_STREAM_SELECTOR|media|asejs| BUFFERING COMPLETE BL(8008)  FC(2) 
+10.332|1|T|PlaybackASE| Buffering complete, Cause: ASE Buffering complete, Vg: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object], $f: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object], Qm: function p(){return U?x(W):F(W);}, jp: function r(){return U?x(la):F(la);}, Rm: function (){var b=a.oa.value,d=p(),c=r();d&&d.startTime-b>S&&(d=null);c&&c.startTime-b>S&&(c=null);if(c)if(d){if(c.startTime<=d.startTime&&d.startTime>b)return c;} else return c;return d;}, GQ: function b(){return !0;}, sx: function (b,d,f,h,k,q,n){function p(a,b,d,c,f,h){return g(b,d).then(function(){l(a,b,d,c,h,f);} );} for(var r=[],m=0,t=0;t<b.length;t++){var u=b[t],w=d[t];if(f.type==ob&&f.track!=a.Wa.value||f.type==ib&&f.track!=a.xb.value){G.trace("Rejecting received chunk because it doesn't match most recent track",u,f);return ;} if(u.media&&u.media.stream.l>=f.l){if(u.media.stream.Ppa()){u.zd(Zd);G.warn("Rejecting received chunk because it is lower bitrate than existing chunk",u,f);return ;} u.media=null;v.Za&&(u.wb=c);} var B=1<b.length?new Pa(new Pa(h.buffer,m,w.length)):h,m=m+w.length;f.TB?(u=p(u,f,B,k,q,n),r.push(u)):l(u,f,B,k,n,q);} da.all(r)["catch"](function(b){G.error("decryptAndSetMedia failed",b);a.Rd(new PlayerPError(Q.n7));} ).then(function(){O();} )["catch"](function(a){G.error("_bufferUpdated failed",a);} );}, jsa: function (a){a.js=!0;v.EY&&(a=a.media,I(a),a&&(a.arrayBuffer=null));}, msa: function (a){a.js=c;v.EY&&!v.Za&&h(a);}, lsa: function (){for(var a=ia.length,b,d;a--;)b=ia[a],b.js=c,(d=b.media)&&!d.arrayBuffer&&h(b);}, bC: function (){for(var b=a.je(),c=la.first,f,g;c;)c.media&&!c.js&&0>b.indexOf(c.media.stream)&&(v.Za&&c.startTime>=a.oa.value&&!f&&(f=c.startTime),h(c),g=!0),c=c.next;g&&(G.trace("Discarding media based on stream filters"),v.Za&&(v.Yf?(v.Ek&&a.cb&&a.cb.Er(d,d),D()):a.Fa&&(b=a.Fa.R[a.Cc.ea],b.Fl(f),b.nn(a.oa))),O());}, Fka: function (){for(var b=a.je(),c=la.first,f,g,k,l=P.$L(),l=Da(l,8008),q;c;)c.media&&(c.js&&(g=c.index,k=g+l/c.duration),!(c.index>=g&&c.index<=k)&&0>b.indexOf(c.media.stream)&&(v.Za&&c.startTime>=a.oa.value&&!q&&(q=c.startTime),h(c),f=!0)),c=c.next;f&&(G.trace("Discarding media based on stream filters"),v.Za&&(v.Yf?(v.Ek&&a.cb&&a.cb.Er(d,d),D()):q&&a.Fa&&(b=a.Fa.R[a.Cc.ea],b.Fl(q),b.nn(a.oa))),O());}, LL: function (){var b=a.oa.value,d=Pc(b,W),c=Pc(b,la),f;d&&c&&(f=ya(d.endTime,c.endTime));return C(f,b);}, Wk: function q(){return ya(t(),B());}, OC: function n(){return M?v.Gi?N((u()+y())/v.Gi,0,1):0:N(q()/v.gl,0,1);}, Vk: function t(){var b=a.oa.value,d=Pc(b,W);return d?Da(0,d.endTime-b):0;}, PZ: function u(){return Yf(a.oa.value,W);}, Ci: function B(){var b=a.oa.value,d=Pc(b,la);return d?Da(0,d.endTime-b):0;}, y_: function y(){return Yf(a.oa.value,la);}, eGa: function z(a){a=a.first;for(var b=[];a;){if(a.media&&a.wb){var d=a.wb.Fd;-1==b.indexOf(d)&&b.push(d);} a=a.next;} return b;}, zw: function A(b){for(var d=ia.length,c,f,h=0,g=a.pa.value.N.xa,k=a.Lb.value.N.xa;d--;)c=ia[d],(f=c.media)?h+=f.length:b&&c.uj&Tm&&(c.type===ib?h+=g[c.index].length:k&&c.type==ob&&(h+=k[c.index].length));return h;}, hGa: function (){var b=a.oa.value,d=Pc(b,la);return d?d.endTime:b;}, zj: function E(){return {AudioBufferLength:sa(t()),VideoBufferLength:sa(B())} ;}, fD: function (){var c=Y();if(!d||1E3<c-b)b=c,d=a();return d;}, compact: function () { [native code] }, aP: function D(){var b={} ;b[og]=z(W);b[ng]=z(la);a.Fa&&a.Fa.$ta(b,a.oa.value);}, reset: function (){var a;for(a=W.first;a;)a.media&&(h(a),a.js=c),a=a.next;for(a=la.first;a;)a.media&&(h(a),a.js=c),a=a.next;}, toa: function (b){var d=a.oa.value;return (b=b.Ja)&&b[b.length-1].endTime-d>S?!1:!0;}
+10.333|1|I|PlaybackASE| BufferingState changed, From: 2, To: 1, MediaTime: 295.001, AudioBufferLength: 25.041, VideoBufferLength: 5.299
+10.333|1|T|PlaybackASE| Milestone, Id: pb
+10.338|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 75, StartTime: 300.300, EndTime: 304.304, CdnId: 45658, AudioBufferLength: 25.041, VideoBufferLength: 9.303
+10.473|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 76, StartTime: 304.304, EndTime: 308.308, CdnId: 45658, AudioBufferLength: 25.041, VideoBufferLength: 13.307
+10.483|1|T|CadmiumMediaStream| Downloading header, Cdn: 38309, Type: video, Bitrate: 220, DownloadableId: 567343387, Resolution: 426:240
+10.545|1|T|MediaBuffer| Received chunk, Type: audio, Chunk index: 20, StartTime: 320.042, EndTime: 336.042, CdnId: 39865, AudioBufferLength: 41.041, VideoBufferLength: 13.307
+10.603|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 78, StartTime: 312.312, EndTime: 316.316, CdnId: 45658, AudioBufferLength: 41.041, VideoBufferLength: 13.307
+10.608|1|T|CadmiumMediaStream| Header parsed, Chunks: 859, Type: video, Bitrate: 220, DownloadableId: 567343387, Resolution: 426:240
+10.613|1|T|CadmiumMediaStream| Downloading header, Cdn: 38771, Type: video, Bitrate: 300, DownloadableId: 567340403, Resolution: 512:288
+10.683|1|T|CadmiumMediaStream| Header parsed, Chunks: 859, Type: video, Bitrate: 300, DownloadableId: 567340403, Resolution: 512:288
+10.760|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 79, StartTime: 316.316, EndTime: 320.320, CdnId: 45658, AudioBufferLength: 41.041, VideoBufferLength: 13.307
+10.772|1|T|CadmiumMediaStream| Downloading header, Cdn: 38771, Type: video, Bitrate: 680, DownloadableId: 567344145, Resolution: 682:384
+10.824|1|T|CadmiumMediaStream| Header parsed, Chunks: 859, Type: video, Bitrate: 680, DownloadableId: 567344145, Resolution: 682:384
+10.875|0|T|VideoPreparer| LICENSE: Received event: message, sessionId: 8D64D4288B6B4257996C25E03F9D5F3B, messageType: license-request, isCertRequest: false
+10.875|0|T|VideoPreparer| Milestone: lc, 10875
+10.876|0|T|VideoPreparer| Requesting license, drmType: widevine
+10.878|0|T|VideoPreparer| xid created , MovieId: 80025313, xid: 14956818846854
+10.878|0|T|VideoPreparer| Sending EDGE request, Method: license
+10.880|0|T|Msl| Sending MSL request
+10.889|0|T|Msl| Sent MSL header, NccpMethod: license, UserId: browser, UT: 1491989661949316, MT: 5913070915037797:1, STCount: 1
+customerInfo:5913070915037797:1491989661949316
+10.991|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 80, StartTime: 320.320, EndTime: 324.324, CdnId: 45658, AudioBufferLength: 41.041, VideoBufferLength: 13.307
+10.998|1|T|CadmiumMediaStream| Downloading header, Cdn: 38771, Type: video, Bitrate: 1050, DownloadableId: 567335534, Resolution: 853:480
+11.050|1|T|CadmiumMediaStream| Header parsed, Chunks: 859, Type: video, Bitrate: 1050, DownloadableId: 567335534, Resolution: 853:480
+11.153|0|T|Msl| Received MSL header, NccpMethod: license, UserId: browser, UT: 1491989661949316, MT: 5913070915037797:1, STCount: 2
+11.156|0|T|Msl| Adding UserIdToken, UserId: browser, SerialNumber: 1491989661949316, MTSerialNumber: 5913070915037797, Expiration: 1496891481000
+11.156|0|T|Msl| Received MSL response, Method: license
+11.179|0|T|VideoPreparer| Received EDGE response, Method: license
+11.181|0|T|VideoPreparer| Milestone: lr, 11180
+11.182|1|I|MediaElementASE| Setting the license
+11.185|0|T|VideoPreparer| task succeeded, id: 4, type: ldl, created: 5422, status: succeeded, movieId: 80025313, startTime: 5423, duration: 5759, endTime: 11182
+11.273|0|T|VideoPreparer| Received event: keystatuseschange
+11.274|0|T|VideoPreparer| key status: output-restricted
+11.274|0|W|VideoPreparer| output protection status
+output-restricted
+11.299|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 77, StartTime: 308.308, EndTime: 312.312, CdnId: 45658, AudioBufferLength: 41.041, VideoBufferLength: 29.323
+11.303|1|T|CadmiumMediaStream| Downloading header, Cdn: 39865, Type: video, Bitrate: 1470, DownloadableId: 567336530, Resolution: 853:480
+11.329|1|T|CadmiumMediaStream| Header parsed, Chunks: 859, Type: video, Bitrate: 1470, DownloadableId: 567336530, Resolution: 853:480
+11.385|1|I|MediaElementASE| license set
+11.387|1|T|PlaybackASE| Milestone, Id: ld
+11.388|0|T|General| importing milestones, lg: 8906, lc: 10875, lr: 11180
+11.393|1|T|MediaPresenterASE| Feeding media segment to decoder, Type: audio, Chunk index: 18, StartTime: 288.042, EndTime: 304.042, Bytes: 130897, Type: audio, Bitrate: 64, DownloadableId: 567482523
+11.394|1|T|MediaPresenterASE| Feeding media segment to decoder, Type: video, Chunk index: 73, StartTime: 292.292, EndTime: 296.296, Bytes: 225108, Type: video, Bitrate: 460, DownloadableId: 567331102, Resolution: 682:384
+11.395|1|T|MediaPresenterASE| Video element initialization complete
+11.395|1|T|PlaybackASE| Milestone, Id: vi
+11.396|1|T|MediaPresenterASE| Timer update: ensureTimer, presentingState: 1, playbackState: 2, bufferingState: 1
+11.405|1|T|MediaPresenterASE| Feeding media segment to decoder, Type: audio, Chunk index: 19, StartTime: 304.042, EndTime: 320.042, Bytes: 131348, Type: audio, Bitrate: 64, DownloadableId: 567482523
+11.406|1|T|MediaPresenterASE| Calling pause on element
+11.411|1|T|MediaPresenterASE| Feeding media segment to decoder, Type: video, Chunk index: 74, StartTime: 296.296, EndTime: 300.300, Bytes: 181284, Type: video, Bitrate: 460, DownloadableId: 567331102, Resolution: 682:384
+11.423|1|T|MediaPresenterASE| Feeding media segment to decoder, Type: video, Chunk index: 75, StartTime: 300.300, EndTime: 304.304, Bytes: 188473, Type: video, Bitrate: 460, DownloadableId: 567331102, Resolution: 682:384
+11.425|1|T|MediaElementASE| Setting video elements currentTime, From: 0.000, To: 295.001
+11.441|1|T|MediaElementASE| Video element event: seeking
+11.468|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 81, StartTime: 324.324, EndTime: 328.328, CdnId: 45658, AudioBufferLength: 41.041, VideoBufferLength: 33.327
+11.481|1|T|CadmiumMediaStream| Downloading header, Cdn: 38771, Type: video, Bitrate: 2150, DownloadableId: 1939658369, Resolution: 1280:720
+11.524|1|T|MediaBuffer| Received chunk, Type: audio, Chunk index: 21, StartTime: 336.042, EndTime: 352.042, CdnId: 39865, AudioBufferLength: 57.041, VideoBufferLength: 33.327
+11.602|1|T|CadmiumMediaStream| Header parsed, Chunks: 859, Type: video, Bitrate: 2150, DownloadableId: 1939658369, Resolution: 1280:720
+11.603|1|T|CadmiumMediaStream| Downloading header, Cdn: 39865, Type: video, Bitrate: 3160, DownloadableId: 1940200490, Resolution: 1280:720
+11.650|1|T|CadmiumMediaStream| Header parsed, Chunks: 859, Type: video, Bitrate: 3160, DownloadableId: 1940200490, Resolution: 1280:720
+11.700|1|T|MediaElementASE| Video element event: seeked
+11.701|1|T|MediaPresenterASE| Feeding media segment to decoder, Type: video, Chunk index: 76, StartTime: 304.304, EndTime: 308.308, Bytes: 223887, Type: video, Bitrate: 460, DownloadableId: 567331102, Resolution: 682:384
+11.702|1|T|MediaPresenterASE| Calling play on element
+11.704|1|I|PlaybackASE| PresentingState changed, From: 1, To: 2, MediaTime: 295.001, AudioBufferLength: 57.041, VideoBufferLength: 33.327
+11.717|1|T|NccpLogging| keystatuses, output-restricted: 3340
+11.718|1|T|NccpLogging| batterystatuses, level: 1, charging: true, statuses: [object Object]
+11.727|1|T|PlaybackASE| Milestone, Id: start
+11.733|1|I|TimedTextManager| Activating, Bcp47: en, TrackId: T:1:0;1;en;1;1;, DownloadableId: 1628660453
+11.734|1|T|TimedTextTrack| Downloading, cdn: 38309, Bcp47: en, TrackId: T:1:0;1;en;1;1;, DownloadableId: 1628660453
+11.739|1|T|Nccp| Sending EDGE request, Method: start
+11.741|0|T|Msl| Sending MSL request
+11.744|1|T|MediaPresenterASE| Timer update: stopTimer, presentingState: 2, playbackState: 2, bufferingState: 1
+11.752|1|T|MediaPresenterASE| Video element event: play
+11.754|1|T|MediaPresenterASE| Video element event: playing
+11.781|0|T|Ext| subview.autoplay.interrupter: Reset autoplay count.
+11.781|0|T|Ext| subview.autoplay.interrupter: Autoplay count 0
+11.781|0|T|Ext| loader.manager: video start time: 13620.49ms
+11.785|0|T|Ext| view.playback: init, masterView: true, initialized: true
+11.788|0|T|Ext| cinemamode.manager.init, playerWrapperEl: [object HTMLElement]
+11.820|0|T|Ext| initializing component.audio.subtitle.menu
+11.822|0|T|Ext| subview.fullscreen: init
+11.829|0|T|Ext| subview.autoplay.interrupter: init
+11.852|0|T|Ext| postplay.data: init
+11.870|1|T|MediaPresenterASE| Feeding media segment to decoder, Type: video, Chunk index: 77, StartTime: 308.308, EndTime: 312.312, Bytes: 214502, Type: video, Bitrate: 460, DownloadableId: 567331102, Resolution: 682:384
+11.871|0|T|Ext| Entering cinema mode, lastMouseTarget: null
+11.874|0|T|Msl| Sent MSL header, NccpMethod: start, UserId: browser, UT: 1491989661949316, MT: 5913070915037797:1, STCount: 2
+CDMID_SERVICE_TOKEN_DATA:5913070915037797:-1
+customerInfo:5913070915037797:1491989661949316
+11.954|0|T|Ext| postplay.data: data received, postplay: [object Object], requestId: 15fa8298-d8da-40b2-8f3a-0633be126f2b-335851445
+11.962|0|T|Ext| postplay.data: adding next video, bookmarkPosition: 18, trackId: 155573559, name: playEpisode, season: 1, videoId: 80025314, episode: 2, type: play, ignoreBookmark: false, seamlessEnd: 3368, seamlessStart: 6, additionalTrackIds: [object Object], doNotIncrementInterrupter: false, seamlessCountdownSeconds: 5, autoPlay: true
+11.963|0|T|Ext| postplay.data: updateSeamless: video player is not available.
+12.064|1|T|TimedTextTrack| Entries parsed, Length: 415, Bcp47: en, TrackId: T:1:0;1;en;1;1;, DownloadableId: 1628660453
+12.074|1|I|TimedTextManager| Activated, Bcp47: en, TrackId: T:1:0;1;en;1;1;, DownloadableId: 1628660453
+12.136|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 82, StartTime: 328.328, EndTime: 332.332, CdnId: 38771, AudioBufferLength: 56.802, VideoBufferLength: 37.092
+12.142|1|T|TrickPlay| Downloading
+https://tp-s.nflximg.net/tpa4/293/1641449293.bif
+12.225|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 83, StartTime: 332.332, EndTime: 336.336, CdnId: 38771, AudioBufferLength: 56.679, VideoBufferLength: 40.973
+12.227|0|T|Msl| Received MSL header, NccpMethod: start, UserId: browser, UT: 1491989661949316, MT: 5913070915037797:1, STCount: 2
+12.228|0|T|Msl| Adding UserIdToken, UserId: browser, SerialNumber: 1491989661949316, MTSerialNumber: 5913070915037797, Expiration: 1496891481000
+12.228|0|T|Msl| Received MSL response, Method: start
+12.261|1|T|Nccp| Received EDGE response, Method: start
+12.275|0|T|Ext| subview.autoplay.interrupter: Reset autoplay count.
+13.044|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 84, StartTime: 336.336, EndTime: 340.340, CdnId: 39865, AudioBufferLength: 56.328, VideoBufferLength: 44.626
+13.278|1|T|TrickPlay| TrickPlay parsed, Images: 342
+14.369|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 85, StartTime: 340.340, EndTime: 344.344, CdnId: 38771, AudioBufferLength: 54.611, VideoBufferLength: 46.913
+14.370|1|T|MediaPresenterASE| Feeding media segment to decoder, Type: video, Chunk index: 78, StartTime: 312.312, EndTime: 316.316, Bytes: 253007, Type: video, Bitrate: 460, DownloadableId: 567331102, Resolution: 682:384
+14.502|1|T|MediaBuffer| Received chunk, Type: audio, Chunk index: 22, StartTime: 352.042, EndTime: 368.042, CdnId: 39865, AudioBufferLength: 70.439, VideoBufferLength: 46.741
+14.545|0|T|Ext| Entering cinema mode, lastMouseTarget: null
+14.841|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 87, StartTime: 348.348, EndTime: 352.352, CdnId: 39865, AudioBufferLength: 70.113, VideoBufferLength: 46.415
+14.872|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 86, StartTime: 344.344, EndTime: 348.348, CdnId: 39865, AudioBufferLength: 69.974, VideoBufferLength: 54.284
+15.510|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 89, StartTime: 356.356, EndTime: 360.360, CdnId: 39865, AudioBufferLength: 69.363, VideoBufferLength: 53.673
+15.551|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 88, StartTime: 352.352, EndTime: 356.356, CdnId: 39865, AudioBufferLength: 69.306, VideoBufferLength: 61.624
+15.576|1|T|MediaBuffer| Received chunk, Type: audio, Chunk index: 23, StartTime: 368.042, EndTime: 384.042, CdnId: 39865, AudioBufferLength: 85.264, VideoBufferLength: 61.582
+15.947|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 91, StartTime: 364.364, EndTime: 368.368, CdnId: 39865, AudioBufferLength: 85.240, VideoBufferLength: 61.558
+16.048|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 90, StartTime: 360.360, EndTime: 364.364, CdnId: 39865, AudioBufferLength: 84.863, VideoBufferLength: 69.189
+16.279|1|T|Eme| Received event: message, sessionId: 8D64D4288B6B4257996C25E03F9D5F3B, messageType: license-renewal
+16.279|1|T|PlaybackASE| Milestone, Id: renew_lc
+16.280|1|T|Eme| Requesting license, drmType: widevine
+16.281|1|T|Nccp| Sending EDGE request, Method: license
+16.283|0|T|Msl| Sending MSL request
+16.286|0|T|Msl| Sent MSL header, NccpMethod: license, UserId: browser, UT: 1491989661949316, MT: 5913070915037797:1, STCount: 2
+CDMID_SERVICE_TOKEN_DATA:5913070915037797:-1
+customerInfo:5913070915037797:1491989661949316
+16.332|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 93, StartTime: 372.372, EndTime: 376.376, CdnId: 39865, AudioBufferLength: 84.767, VideoBufferLength: 69.093
+16.386|1|T|MediaBuffer| Received chunk, Type: audio, Chunk index: 24, StartTime: 384.042, EndTime: 400.042, CdnId: 39865, AudioBufferLength: 100.484, VideoBufferLength: 68.810
+16.400|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 92, StartTime: 368.368, EndTime: 372.372, CdnId: 39865, AudioBufferLength: 100.429, VideoBufferLength: 76.763
+16.647|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 94, StartTime: 376.376, EndTime: 380.380, CdnId: 39865, AudioBufferLength: 100.363, VideoBufferLength: 80.701
+16.724|0|T|LogBatcher| Flushing
+16.727|0|I|MessageQueue| Batch_0: 15/112472 b
+16.733|1|T|SubtitleTracker| qoe score 100, at pts: 299956
+16.740|0|T|LogBatcher| Sending batch: 112472 b
+16.746|0|T|LogblobSender| Sending EDGE request, Method: logblob
+16.748|0|T|Msl| Sending MSL request
+16.755|0|T|Msl| Sent MSL header, NccpMethod: logblob, UserId: browser, UT: 1491989661949316, MT: 5913070915037797:1, STCount: 2
+CDMID_SERVICE_TOKEN_DATA:5913070915037797:-1
+customerInfo:5913070915037797:1491989661949316
+16.834|0|T|Msl| Received MSL header, NccpMethod: license, UserId: browser, UT: 1491989661949316, MT: 5913070915037797:1, STCount: 2
+16.834|0|T|Msl| Adding UserIdToken, UserId: browser, SerialNumber: 1491989661949316, MTSerialNumber: 5913070915037797, Expiration: 1496891481000
+16.834|0|T|Msl| Received MSL response, Method: license
+16.838|1|T|Nccp| Received EDGE response, Method: license
+16.839|1|T|Nccp| Sending EDGE request, Method: bind
+16.840|0|T|Msl| Sending MSL request
+16.841|1|T|PlaybackASE| Milestone, Id: renew_lr
+16.850|0|T|Msl| Sent MSL header, NccpMethod: bind, UserId: browser, UT: 1491989661949316, MT: 5913070915037797:1, STCount: 2
+CDMID_SERVICE_TOKEN_DATA:5913070915037797:-1
+customerInfo:5913070915037797:1491989661949316
+16.872|1|T|PlaybackASE| Milestone, Id: renew_ld
+17.023|0|T|Msl| Received MSL header, NccpMethod: logblob, UserId: browser, UT: 1491989661949316, MT: 5913070915037797:1, STCount: 2
+17.023|0|T|Msl| Adding UserIdToken, UserId: browser, SerialNumber: 1491989661949316, MTSerialNumber: 5913070915037797, Expiration: 1496891481000
+17.024|0|T|Msl| Received MSL response, Method: logblob
+17.033|0|T|LogblobSender| Received EDGE response, Method: logblob
+17.034|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 97, StartTime: 388.388, EndTime: 392.392, CdnId: 39865, AudioBufferLength: 99.861, VideoBufferLength: 80.199
+17.035|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 96, StartTime: 384.384, EndTime: 388.388, CdnId: 39865, AudioBufferLength: 99.781, VideoBufferLength: 80.119
+17.185|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 95, StartTime: 380.380, EndTime: 384.384, CdnId: 39865, AudioBufferLength: 99.780, VideoBufferLength: 92.130
+17.201|1|T|MediaBuffer| Received chunk, Type: audio, Chunk index: 25, StartTime: 400.042, EndTime: 416.042, CdnId: 39865, AudioBufferLength: 115.631, VideoBufferLength: 91.981
+17.261|0|T|Msl| Received MSL header, NccpMethod: bind, UserId: browser, UT: 1491989661949316, MT: 5913070915037797:1, STCount: 2
+17.261|0|T|Msl| Adding UserIdToken, UserId: browser, SerialNumber: 1491989661949316, MTSerialNumber: 5913070915037797, Expiration: 1496891481000
+17.261|0|T|Msl| Received MSL response, Method: bind
+17.263|1|T|Nccp| Received EDGE response, Method: bind
+17.264|1|T|NccpPlayback| Updated NetflixId
+17.837|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 98, StartTime: 392.392, EndTime: 396.396, CdnId: 39865, AudioBufferLength: 115.113, VideoBufferLength: 95.467
+18.255|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 99, StartTime: 396.396, EndTime: 400.400, CdnId: 39865, AudioBufferLength: 114.613, VideoBufferLength: 98.971
+18.256|1|T|MediaPresenterASE| Feeding media segment to decoder, Type: video, Chunk index: 79, StartTime: 316.316, EndTime: 320.320, Bytes: 304590, Type: video, Bitrate: 460, DownloadableId: 567331102, Resolution: 682:384
+18.286|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 100, StartTime: 400.400, EndTime: 404.404, CdnId: 39865, AudioBufferLength: 114.551, VideoBufferLength: 102.913
+18.340|1|T|MediaBuffer| Received chunk, Type: audio, Chunk index: 26, StartTime: 416.042, EndTime: 432.042, CdnId: 39865, AudioBufferLength: 130.529, VideoBufferLength: 102.891
+18.446|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 101, StartTime: 404.404, EndTime: 408.408, CdnId: 39865, AudioBufferLength: 130.476, VideoBufferLength: 106.842
+18.919|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 104, StartTime: 416.416, EndTime: 420.420, CdnId: 39865, AudioBufferLength: 130.113, VideoBufferLength: 106.479
+19.009|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 102, StartTime: 408.408, EndTime: 412.412, CdnId: 39865, AudioBufferLength: 129.897, VideoBufferLength: 110.267
+19.205|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 103, StartTime: 412.412, EndTime: 416.416, CdnId: 39865, AudioBufferLength: 129.807, VideoBufferLength: 118.185
+19.286|0|T|Ext| subview.autoplay.interrupter: Reset autoplay count.
+19.334|0|T|Ext| subview.autoplay.interrupter: Reset autoplay count.
+19.401|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 105, StartTime: 420.420, EndTime: 424.424, CdnId: 39865, AudioBufferLength: 129.609, VideoBufferLength: 121.991
+19.502|0|T|Ext| subview.autoplay.interrupter: Reset autoplay count.
+19.669|0|T|Ext| subview.autoplay.interrupter: Reset autoplay count.
+19.749|1|T|MediaBuffer| Received chunk, Type: audio, Chunk index: 27, StartTime: 432.042, EndTime: 448.042, CdnId: 39865, AudioBufferLength: 145.112, VideoBufferLength: 121.494
+19.824|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 106, StartTime: 424.424, EndTime: 428.428, CdnId: 39865, AudioBufferLength: 145.066, VideoBufferLength: 125.452
+19.856|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 107, StartTime: 428.428, EndTime: 432.432, CdnId: 39865, AudioBufferLength: 144.992, VideoBufferLength: 129.382
+20.171|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 108, StartTime: 432.432, EndTime: 436.436, CdnId: 39865, AudioBufferLength: 144.959, VideoBufferLength: 133.353
+20.172|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 110, StartTime: 440.440, EndTime: 444.444, CdnId: 39865, AudioBufferLength: 144.644, VideoBufferLength: 133.038
+20.218|1|T|MediaBuffer| Received chunk, Type: audio, Chunk index: 28, StartTime: 448.042, EndTime: 464.042, CdnId: 39865, AudioBufferLength: 160.613, VideoBufferLength: 133.007
+20.272|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 109, StartTime: 436.436, EndTime: 440.440, CdnId: 39865, AudioBufferLength: 160.598, VideoBufferLength: 141.000
+20.704|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 113, StartTime: 452.452, EndTime: 456.456, CdnId: 39865, AudioBufferLength: 160.544, VideoBufferLength: 140.946
+20.915|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 112, StartTime: 448.448, EndTime: 452.452, CdnId: 39865, AudioBufferLength: 160.109, VideoBufferLength: 140.511
+20.916|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 111, StartTime: 444.444, EndTime: 448.448, CdnId: 39865, AudioBufferLength: 159.901, VideoBufferLength: 152.315
+21.071|1|T|MediaBuffer| Received chunk, Type: audio, Chunk index: 29, StartTime: 464.042, EndTime: 480.042, CdnId: 39865, AudioBufferLength: 175.854, VideoBufferLength: 152.268
+21.703|0|T|Ext| Entering cinema mode, lastMouseTarget: [object HTMLVideoElement]
+21.987|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 114, StartTime: 456.456, EndTime: 460.460, CdnId: 39865, AudioBufferLength: 175.112, VideoBufferLength: 155.530
+22.368|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 116, StartTime: 464.464, EndTime: 468.468, CdnId: 39865, AudioBufferLength: 174.828, VideoBufferLength: 155.246
+22.369|1|T|MediaPresenterASE| Feeding media segment to decoder, Type: audio, Chunk index: 20, StartTime: 320.042, EndTime: 336.042, Bytes: 130904, Type: audio, Bitrate: 64, DownloadableId: 567482523
+22.370|1|T|MediaPresenterASE| Feeding media segment to decoder, Type: video, Chunk index: 80, StartTime: 320.320, EndTime: 324.324, Bytes: 303940, Type: video, Bitrate: 460, DownloadableId: 567331102, Resolution: 682:384
+22.454|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 115, StartTime: 460.460, EndTime: 464.464, CdnId: 39865, AudioBufferLength: 174.433, VideoBufferLength: 162.859
+22.577|1|T|MediaBuffer| Received chunk, Type: audio, Chunk index: 30, StartTime: 480.042, EndTime: 496.042, CdnId: 39865, AudioBufferLength: 190.361, VideoBufferLength: 162.787
+22.861|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 117, StartTime: 468.468, EndTime: 472.472, CdnId: 39865, AudioBufferLength: 190.113, VideoBufferLength: 166.543
+23.230|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 118, StartTime: 472.472, EndTime: 476.476, CdnId: 39865, AudioBufferLength: 189.862, VideoBufferLength: 170.296
+23.282|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 120, StartTime: 480.480, EndTime: 484.484, CdnId: 39865, AudioBufferLength: 189.585, VideoBufferLength: 170.019
+23.576|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 119, StartTime: 476.476, EndTime: 480.480, CdnId: 39865, AudioBufferLength: 189.533, VideoBufferLength: 177.975
+23.652|1|T|MediaBuffer| Received chunk, Type: audio, Chunk index: 31, StartTime: 496.042, EndTime: 512.042, CdnId: 39865, AudioBufferLength: 205.239, VideoBufferLength: 177.681
+23.952|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 121, StartTime: 484.484, EndTime: 488.488, CdnId: 39865, AudioBufferLength: 205.113, VideoBufferLength: 181.559
+24.025|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 122, StartTime: 488.488, EndTime: 492.492, CdnId: 39865, AudioBufferLength: 204.863, VideoBufferLength: 185.313
+25.006|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 123, StartTime: 492.492, EndTime: 496.496, CdnId: 39865, AudioBufferLength: 203.863, VideoBufferLength: 188.317
+25.045|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 124, StartTime: 496.496, EndTime: 500.500, CdnId: 39865, AudioBufferLength: 203.808, VideoBufferLength: 192.266
+25.220|1|T|MediaBuffer| Received chunk, Type: audio, Chunk index: 32, StartTime: 512.042, EndTime: 528.042, CdnId: 39865, AudioBufferLength: 219.771, VideoBufferLength: 192.229
+25.420|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 125, StartTime: 500.500, EndTime: 504.504, CdnId: 39865, AudioBufferLength: 219.594, VideoBufferLength: 196.056
+26.073|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 126, StartTime: 504.504, EndTime: 508.508, CdnId: 39865, AudioBufferLength: 218.863, VideoBufferLength: 199.329
+26.703|1|T|MediaPresenterASE| Feeding media segment to decoder, Type: video, Chunk index: 81, StartTime: 324.324, EndTime: 328.328, Bytes: 287398, Type: video, Bitrate: 460, DownloadableId: 567331102, Resolution: 682:384
+26.724|1|T|SubtitleTracker| qoe score 100, at pts: 309950
+27.230|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 127, StartTime: 508.508, EndTime: 512.512, CdnId: 39865, AudioBufferLength: 217.863, VideoBufferLength: 202.333
+27.233|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 129, StartTime: 516.516, EndTime: 520.520, CdnId: 39865, AudioBufferLength: 217.584, VideoBufferLength: 202.054
+27.388|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 128, StartTime: 512.512, EndTime: 516.516, CdnId: 39865, AudioBufferLength: 217.582, VideoBufferLength: 210.060
+27.523|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 130, StartTime: 520.520, EndTime: 524.524, CdnId: 39865, AudioBufferLength: 217.427, VideoBufferLength: 213.909
+27.929|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 132, StartTime: 528.528, EndTime: 532.532, CdnId: 39865, AudioBufferLength: 217.112, VideoBufferLength: 213.594
+27.958|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 131, StartTime: 524.524, EndTime: 528.528, CdnId: 39865, AudioBufferLength: 216.886, VideoBufferLength: 221.376
+30.453|1|T|MediaPresenterASE| Feeding init segment to decoder, Type: video, Bitrate: 680, DownloadableId: 567344145, Resolution: 682:384, Bytes: 1854
+30.454|1|T|MediaPresenterASE| Feeding media segment to decoder, Type: video, Chunk index: 82, StartTime: 328.328, EndTime: 332.332, Bytes: 503447, Type: video, Bitrate: 680, DownloadableId: 567344145, Resolution: 682:384
+30.455|1|T|MediaElementASE| Received event: encrypted
+32.210|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 133, StartTime: 532.532, EndTime: 536.536, CdnId: 39865, AudioBufferLength: 212.613, VideoBufferLength: 221.107
+34.703|1|T|MediaPresenterASE| Feeding init segment to decoder, Type: video, Bitrate: 1050, DownloadableId: 567335534, Resolution: 853:480, Bytes: 1859
+34.704|1|T|MediaPresenterASE| Feeding media segment to decoder, Type: video, Chunk index: 83, StartTime: 332.332, EndTime: 336.336, Bytes: 795962, Type: video, Bitrate: 1050, DownloadableId: 567335534, Resolution: 853:480
+34.705|1|T|MediaElementASE| Received event: encrypted
+36.770|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 134, StartTime: 536.536, EndTime: 540.540, CdnId: 39865, AudioBufferLength: 208.112, VideoBufferLength: 220.610
+38.489|1|T|MediaPresenterASE| Feeding media segment to decoder, Type: audio, Chunk index: 21, StartTime: 336.042, EndTime: 352.042, Bytes: 131302, Type: audio, Bitrate: 64, DownloadableId: 567482523
+38.490|1|T|MediaPresenterASE| Feeding init segment to decoder, Type: video, Bitrate: 1470, DownloadableId: 567336530, Resolution: 853:480, Bytes: 1859
+38.503|1|T|MediaPresenterASE| Feeding media segment to decoder, Type: video, Chunk index: 84, StartTime: 336.336, EndTime: 340.340, Bytes: 1192968, Type: video, Bitrate: 1470, DownloadableId: 567336530, Resolution: 853:480
+38.616|1|T|MediaElementASE| Received event: encrypted
+39.304|1|T|MediaBuffer| Received chunk, Type: audio, Chunk index: 33, StartTime: 528.042, EndTime: 544.042, CdnId: 39865, AudioBufferLength: 221.862, VideoBufferLength: 218.360
+40.998|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 135, StartTime: 540.540, EndTime: 544.544, CdnId: 39865, AudioBufferLength: 219.863, VideoBufferLength: 220.365
+41.724|1|T|SubtitleTracker| qoe score 100, at pts: 324951
+42.703|1|T|MediaPresenterASE| Feeding init segment to decoder, Type: video, Bitrate: 2150, DownloadableId: 1939658369, Resolution: 1280:720, Bytes: 1856
+42.704|1|T|MediaPresenterASE| Feeding media segment to decoder, Type: video, Chunk index: 85, StartTime: 340.340, EndTime: 344.344, Bytes: 1558958, Type: video, Bitrate: 2150, DownloadableId: 1939658369, Resolution: 1280:720
+42.706|1|T|MediaElementASE| Received event: encrypted
+45.711|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 136, StartTime: 544.544, EndTime: 548.548, CdnId: 39865, AudioBufferLength: 215.113, VideoBufferLength: 219.619
+46.702|1|T|MediaPresenterASE| Feeding init segment to decoder, Type: video, Bitrate: 3160, DownloadableId: 1940200490, Resolution: 1280:720, Bytes: 1856
+46.703|1|T|MediaPresenterASE| Feeding media segment to decoder, Type: video, Chunk index: 86, StartTime: 344.344, EndTime: 348.348, Bytes: 1598638, Type: video, Bitrate: 3160, DownloadableId: 1940200490, Resolution: 1280:720
+46.705|1|T|MediaElementASE| Received event: encrypted
+48.799|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 137, StartTime: 548.548, EndTime: 552.552, CdnId: 39865, AudioBufferLength: 212.113, VideoBufferLength: 220.623
+50.702|1|T|MediaPresenterASE| Feeding media segment to decoder, Type: video, Chunk index: 87, StartTime: 348.348, EndTime: 352.352, Bytes: 1279422, Type: video, Bitrate: 3160, DownloadableId: 1940200490, Resolution: 1280:720
+53.627|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 138, StartTime: 552.552, EndTime: 556.556, CdnId: 39865, AudioBufferLength: 207.609, VideoBufferLength: 220.123
+54.702|1|T|MediaPresenterASE| Feeding media segment to decoder, Type: audio, Chunk index: 22, StartTime: 352.042, EndTime: 368.042, Bytes: 130933, Type: audio, Bitrate: 64, DownloadableId: 567482523
+54.702|1|T|MediaPresenterASE| Feeding media segment to decoder, Type: video, Chunk index: 88, StartTime: 352.352, EndTime: 356.356, Bytes: 2233856, Type: video, Bitrate: 3160, DownloadableId: 1940200490, Resolution: 1280:720
+56.018|1|T|MediaBuffer| Received chunk, Type: audio, Chunk index: 34, StartTime: 544.042, EndTime: 560.042, CdnId: 39865, AudioBufferLength: 220.863, VideoBufferLength: 217.377
+56.278|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 139, StartTime: 556.556, EndTime: 560.560, CdnId: 39865, AudioBufferLength: 220.796, VideoBufferLength: 221.314
+58.452|1|T|MediaPresenterASE| Feeding media segment to decoder, Type: video, Chunk index: 89, StartTime: 356.356, EndTime: 360.360, Bytes: 1726807, Type: video, Bitrate: 3160, DownloadableId: 1940200490, Resolution: 1280:720
+60.747|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 140, StartTime: 560.560, EndTime: 564.564, CdnId: 39865, AudioBufferLength: 216.113, VideoBufferLength: 220.635
+62.702|1|T|MediaPresenterASE| Feeding media segment to decoder, Type: video, Chunk index: 90, StartTime: 360.360, EndTime: 364.364, Bytes: 1903682, Type: video, Bitrate: 3160, DownloadableId: 1940200490, Resolution: 1280:720
+65.618|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 141, StartTime: 564.564, EndTime: 568.568, CdnId: 39865, AudioBufferLength: 211.362, VideoBufferLength: 219.888
+66.702|1|T|MediaPresenterASE| Feeding media segment to decoder, Type: video, Chunk index: 91, StartTime: 364.364, EndTime: 368.368, Bytes: 1746994, Type: video, Bitrate: 3160, DownloadableId: 1940200490, Resolution: 1280:720
+69.719|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 142, StartTime: 568.568, EndTime: 572.572, CdnId: 39865, AudioBufferLength: 207.113, VideoBufferLength: 219.643
+70.451|1|T|MediaPresenterASE| Feeding media segment to decoder, Type: audio, Chunk index: 23, StartTime: 368.042, EndTime: 384.042, Bytes: 131174, Type: audio, Bitrate: 64, DownloadableId: 567482523
+70.453|1|T|MediaPresenterASE| Feeding media segment to decoder, Type: video, Chunk index: 92, StartTime: 368.368, EndTime: 372.372, Bytes: 1479967, Type: video, Bitrate: 3160, DownloadableId: 1940200490, Resolution: 1280:720
+71.723|1|T|SubtitleTracker| qoe score 100, at pts: 354950
+71.833|1|T|Nccp| Sending EDGE request, Method: pblifecycle
+71.835|0|T|Msl| Sending MSL request
+71.840|0|T|Msl| Sent MSL header, NccpMethod: pblifecycle, UserId: browser, UT: 1491989661949316, MT: 5913070915037797:1, STCount: 2
+CDMID_SERVICE_TOKEN_DATA:5913070915037797:-1
+customerInfo:5913070915037797:1491989661949316
+71.974|0|T|Msl| Received MSL header, NccpMethod: pblifecycle, UserId: browser, UT: 1491989661949316, MT: 5913070915037797:1, STCount: 2
+71.974|0|T|Msl| Adding UserIdToken, UserId: browser, SerialNumber: 1491989661949316, MTSerialNumber: 5913070915037797, Expiration: 1496891481000
+71.974|0|T|Msl| Received MSL response, Method: pblifecycle
+71.976|1|T|Nccp| Received EDGE response, Method: pblifecycle
+72.090|1|T|MediaBuffer| Received chunk, Type: audio, Chunk index: 35, StartTime: 560.042, EndTime: 576.042, CdnId: 39865, AudioBufferLength: 220.863, VideoBufferLength: 217.393
+73.023|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 143, StartTime: 572.572, EndTime: 576.576, CdnId: 39865, AudioBufferLength: 219.863, VideoBufferLength: 220.397
+74.701|1|T|MediaPresenterASE| Feeding media segment to decoder, Type: video, Chunk index: 93, StartTime: 372.372, EndTime: 376.376, Bytes: 1076264, Type: video, Bitrate: 3160, DownloadableId: 1940200490, Resolution: 1280:720
+76.751|0|I|MessageQueue| Batch_0: 12/86688 b
+76.752|1|T|SubtitleTracker| qoe score 100, at pts: 359980
+76.754|0|T|LogBatcher| Sending batch: 86688 b
+76.755|0|T|LogblobSender| Sending EDGE request, Method: logblob
+76.756|0|T|Msl| Sending MSL request
+76.879|0|T|Msl| Sent MSL header, NccpMethod: logblob, UserId: browser, UT: 1491989661949316, MT: 5913070915037797:1, STCount: 2
+CDMID_SERVICE_TOKEN_DATA:5913070915037797:-1
+customerInfo:5913070915037797:1491989661949316
+76.990|0|T|Msl| Received MSL header, NccpMethod: logblob, UserId: browser, UT: 1491989661949316, MT: 5913070915037797:1, STCount: 2
+76.990|0|T|Msl| Adding UserIdToken, UserId: browser, SerialNumber: 1491989661949316, MTSerialNumber: 5913070915037797, Expiration: 1496891481000
+76.990|0|T|Msl| Received MSL response, Method: logblob
+76.991|0|T|LogblobSender| Received EDGE response, Method: logblob
+77.369|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 144, StartTime: 576.576, EndTime: 580.580, CdnId: 39865, AudioBufferLength: 215.863, VideoBufferLength: 220.401
+78.701|1|T|MediaPresenterASE| Feeding media segment to decoder, Type: video, Chunk index: 94, StartTime: 376.376, EndTime: 380.380, Bytes: 1152921, Type: video, Bitrate: 3160, DownloadableId: 1940200490, Resolution: 1280:720
+80.768|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 145, StartTime: 580.580, EndTime: 584.584, CdnId: 39865, AudioBufferLength: 212.113, VideoBufferLength: 220.655
+82.701|1|T|MediaPresenterASE| Feeding media segment to decoder, Type: video, Chunk index: 95, StartTime: 380.380, EndTime: 384.384, Bytes: 1385098, Type: video, Bitrate: 3160, DownloadableId: 1940200490, Resolution: 1280:720
+85.069|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 146, StartTime: 584.584, EndTime: 588.588, CdnId: 39865, AudioBufferLength: 208.113, VideoBufferLength: 220.659
+86.451|1|T|MediaPresenterASE| Feeding media segment to decoder, Type: audio, Chunk index: 24, StartTime: 384.042, EndTime: 400.042, Bytes: 131071, Type: audio, Bitrate: 64, DownloadableId: 567482523
+86.454|1|T|MediaPresenterASE| Feeding media segment to decoder, Type: video, Chunk index: 96, StartTime: 384.384, EndTime: 388.388, Bytes: 1010615, Type: video, Bitrate: 3160, DownloadableId: 1940200490, Resolution: 1280:720
+88.169|1|T|MediaBuffer| Received chunk, Type: audio, Chunk index: 36, StartTime: 576.042, EndTime: 592.042, CdnId: 39865, AudioBufferLength: 221.112, VideoBufferLength: 217.658
+88.520|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 147, StartTime: 588.588, EndTime: 592.592, CdnId: 39865, AudioBufferLength: 220.508, VideoBufferLength: 221.058
+90.951|1|T|MediaPresenterASE| Feeding media segment to decoder, Type: video, Chunk index: 97, StartTime: 388.388, EndTime: 392.392, Bytes: 1250460, Type: video, Bitrate: 3160, DownloadableId: 1940200490, Resolution: 1280:720
+92.804|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 148, StartTime: 592.592, EndTime: 596.596, CdnId: 39865, AudioBufferLength: 216.113, VideoBufferLength: 220.667
+94.700|1|T|MediaPresenterASE| Feeding media segment to decoder, Type: video, Chunk index: 98, StartTime: 392.392, EndTime: 396.396, Bytes: 2629465, Type: video, Bitrate: 3160, DownloadableId: 1940200490, Resolution: 1280:720
+96.336|1|T|MediaBuffer| Received chunk, Type: video, Chunk index: 149, StartTime: 596.596, EndTime: 600.600, CdnId: 39865, AudioBufferLength: 212.862, VideoBufferLength: 221.420
+98.451|1|T|MediaPresenterASE| Feeding media segment to decoder, Type: video, Chunk index: 99, StartTime: 396.396, EndTime: 400.400, Bytes: 2457359, Type: video, Bitrate: 3160, DownloadableId: 1940200490, Resolution: 1280:720
+102.700|1|T|MediaPresenterASE| Feeding media segment to decoder, Type: audio, Chunk index: 25, StartTime: 400.042, EndTime: 416.042, Bytes: 131283, Type: audio, Bitrate: 64, DownloadableId: 567482523
+102.700|1|T|MediaPresenterASE| Feeding media segment to decoder, Type: video, Chunk index: 100, StartTime: 400.400, EndTime: 404.404, Bytes: 2022397, Type: video, Bitrate: 3160, DownloadableId: 1940200490, Resolution: 1280:720
