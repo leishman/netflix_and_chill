@@ -12,7 +12,7 @@ Capybara.register_driver :headless_chromium do |app|
     "chromeOptions" => {
       # 'binary' => "/Users/leishman/Downloads/chrome-mac/Chromium.app/Contents/MacOS/Chromium",
       'binary' => "/Applications/Google\ Chrome\ Canary.app/Contents/MacOS/Google\ Chrome\ Canary",
-      'args' => %w{headless no-sandbox disable-gpu hide-scrollbars}
+      'args' => %w{no-sandbox disable-gpu hide-scrollbars} # add 'headless' in here to run headless, but there are still issues
     }
   )
   driver = Capybara::Selenium::Driver.new(
@@ -24,8 +24,8 @@ end
 
 Capybara.default_max_wait_time = 10
 
-# Capybara.default_driver = :headless_chromium
-Capybara.default_driver = :selenium
+Capybara.default_driver = :headless_chromium
+# Capybara.default_driver = :selenium
 
 class NetflixRunner
   include Capybara::DSL
@@ -51,11 +51,12 @@ class NetflixRunner
 
     # open video jawbone
     all('.slider-item-0').first.click
-    page.save_screenshot('screenshot_time')
+    page.save_screenshot('screenshot_test.png')
 
     # click play button to redirect to video page
     find('.jawBone .play').click
 
+    sleep 10
   end
 end
 
