@@ -52,34 +52,81 @@ class NetflixRunner
     sleep 2
     # open video jawbone
     all('.slider-item-0').first.click
-    page.save_screenshot('screenshot_test.png')
+    # page.save_screenshot('screenshot_test.png')
 
     # click play button to redirect to video page
     find('.jawBone .play').click
-    sleep 5
 
-    find('body').send_keys([:control, :shift, :alt, 'd'])
+    find('.player-progress-loading')
+
+
+    loader_displayed = "yes"
+
+    while loader_displayed != "none"
+      loader_displayed = evaluate_script("window.getComputedStyle(document.getElementById('player-playback-buffering')).display;")
+    end
+
+    find('body').send_keys([:control, :shift, :alt, 'l'])
+
+    find('.player-log select').find(:xpath, 'option[4]').select_option
 
     # sleep 60
+    cur_time = Time.now.to_i
+    log_debug = File.new("log_debug_#{cur_time}.txt", "w")
 
-    180.times do
-      sleep 0.5
-      res = page.evaluate_script("document.getElementsByClassName('player-info')[0].children[0].value")
-      pos = res.match(/^Position: (\d+\.\d+)$/)[1]
-      buf_size_bytes = res.match(/^Buffer size in Bytes \(a\/v\): \d+ \/ (\d+)$/)[1]
-      buf_size_secs = res.match(/^Buffer size in Seconds \(a\/v\): \d+\.\d+ \/ (\d+\.\d+)$/)[1]
-      throughput = res.match(/^Throughput: (\d+) kbps$/)[1]
-      puts "Position: #{pos}"
-      puts "Buffer Size (Bytes): #{buf_size_bytes}"
-      puts "Buffer Size (secs): #{buf_size_secs}"
-      puts "Throughput: #{throughput}"
-      puts "\n\n---------------\n\n"
-    end
+    sleep 90
+
+    res = page.evaluate_script("document.getElementsByClassName('player-log')[0].children[0].value")
+
+    log_debug.puts(res)
+    log_debug.close
+
+    return res
   end
 end
 
 nr = NetflixRunner.new
-nr.run
+results = nr.run
+
+puts results
+
+
+# log_parsed = File.new("log_parsed_#{cur_time}.txt", "w")
+
+# result_array = []
+
+# 90.times do
+#   sleep 0.5
+#   res = page.evaluate_script("document.getElementsByClassName('player-log')[0].children[0].value")
+#   pos = res.match(/^Position: (\d+\.\d+)$/)[1]
+#   buf_size_bytes = res.match(/^Buffer size in Bytes \(a\/v\): \d+ \/ (\d+)$/)[1]
+#   buf_size_secs = res.match(/^Buffer size in Seconds \(a\/v\): \d+\.\d+ \/ (\d+\.\d+)$/)[1]
+#   throughput = res.match(/^Throughput: (\d+) kbps$/)[1]
+
+#   delim = "------------------"
+#   log_full.puts(res)
+#   log_full.puts(delim)
+
+#   log_parsed.puts("Position: #{pos}")
+#   log_parsed.puts("Buffer Size (Bytes): #{buf_size_bytes}")
+#   log_parsed.puts("Buffer Size (secs): #{buf_size_secs}")
+#   log_parsed.puts("Throughput: #{throughput}")
+#   log_parsed.puts(delim)
+
+#   puts pos
+
+#   res_obj = {
+#               position: pos,
+#               buf_size_bytes: buf_size_bytes,
+#               buf_size_secs: buf_size_secs,
+#               throughput: throughput
+#             }
+#   result_array << res_obj
+# end
+
+# log_full.close
+# log_parsed.close
+
 
 
 
