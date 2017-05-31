@@ -2,6 +2,8 @@
 *.png
 *.jpg
 *.html
+*.cap
 *.lock
+*.swp
 .bundle/*
 *.txt

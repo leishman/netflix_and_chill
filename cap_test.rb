@@ -27,6 +27,15 @@ Capybara.default_max_wait_time = 10
 Capybara.default_driver = :headless_chromium
 # Capybara.default_driver = :selenium
 
+def display_percentage(total, current, width)
+    curr = (current/total.to_f * 100).round(1)
+    decile = (curr/(100/width)).to_i
+    STDOUT.write "\r"
+    decile.times{STDOUT.write "#"}
+    (width - decile).times{STDOUT.write " "}
+    STDOUT.write "#{curr}% (#{current} of #{total})";
+end
+
 class NetflixRunner
   include Capybara::DSL
 
@@ -37,14 +46,14 @@ class NetflixRunner
     visit('https://www.netflix.com')
     # page.save_screenshot('screenshot.png')
 
-    page.save_screenshot('first_page.png', fromSurface: true)
-    save_and_open_screenshot
+    # page.save_screenshot('first_page.png', fromSurface: true)
+    # save_and_open_screenshot
     click_link('Sign In')
     fill_in 'email', with: 'leishman3@gmail.com'
     fill_in 'password', with: 'cs244rocks'
     click_button 'Sign In'
 
-    save_and_open_page
+    # save_and_open_page
 
     # Select user on account
     all('.avatar-wrapper').first.click
@@ -74,7 +83,11 @@ class NetflixRunner
     cur_time = Time.now.to_i
     log_debug = File.new("log_debug_#{cur_time}.txt", "w")
 
-    sleep 90
+    wait = 90
+    wait.times{|count|
+        display_percentage(wait, count, 20)
+        sleep 1
+    }
 
     res = page.evaluate_script("document.getElementsByClassName('player-log')[0].children[0].value")
 
@@ -89,7 +102,6 @@ nr = NetflixRunner.new
 results = nr.run
 
 puts results
-
 
 # log_parsed = File.new("log_parsed_#{cur_time}.txt", "w")
 
