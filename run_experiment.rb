@@ -142,9 +142,9 @@ class NetflixRunner
 
     bitrates = @bitrate.uniq
     if bitrates.length > 1
-      freq = bitrates.inject(Hash.new(0)) { |h,v| h[v] += 1; h }
-      @constant_bitrate = bitrates.max_by { |v| freq[v] }
-      puts "More than one bitrate through trial. Ergh. Defaulting to most represented bitrate (#{@constant_bitrate})."
+
+      @constant_bitrate = bitrates.inject { |sum, el| sum + el }.to_f / bitrates.size
+      puts "More than one bitrate through trial. Ergh. Taking average bitrate sampled every 10 secs. (#{@constant_bitrate})."
     else
       @constant_bitrate = bitrates[0]
     end
@@ -223,10 +223,15 @@ class NetflixRunner
       end
     end
 
+    representativePeriod = []
+    preFull = sorted_data.select { |el| el[:time] < buffer_full_time }
+    diffs = preFull.each_cons(2).map { |fir, sec| sec[:time] - fir[:time] }
+    avgRespTime = diffs.inject { |sum, el| sum + el }.to_f / diffs.size
+
     chunk_buckets.each_with_index do |v, i|
 
       in_slice = sorted_data.select { |el| prev_time <= el[:time] and el[:time] < cur_time }
-      chunk_buckets[i] = in_slice.length * chunk_size_in_kbits / time_chunk_size
+      chunk_buckets[i] = in_slice.length * chunk_size_in_kbits / avgRespTime
 
       if in_slice.length > 0 and in_slice.first[:time] > (buffer_full_time + 15)
         chunk_buckets = chunk_buckets[0..i+1]
@@ -236,6 +241,7 @@ class NetflixRunner
       prev_time = cur_time
       cur_time += time_chunk_size
     end
+
 
     if isMac?
         last_ts = (@py_data[-1]["ts"].to_f / 1000.0).ceil
@@ -268,13 +274,6 @@ class NetflixRunner
     (0..40).step(10) do |n|
       k = (n * (1/time_chunk_size)).to_i
       labels[k] = n.to_s
-    end
-
-    labels_py = {}
-
-    (0..110).step(10) do |n|
-      k = (n * (1/py_time_chunk_size)).to_i
-      labels_py[k] = n.to_s
     end
 
     labels_interval = {}
