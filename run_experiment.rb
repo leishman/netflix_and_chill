@@ -55,7 +55,7 @@ class NetflixRunner
     buffering_bitrate = log.match(/^Buffering bitrate \(a\/v\): \d+ \/ (\d+)$/)[1]
     throughput = log.match(/^Throughput: (\d+) kbps$/)[1]
     @throughput.push(throughput)
-    @bitrate.push(buffering_bitrate)
+    @bitrate.push(buffering_bitrate.to_i)
     STDOUT.write"
     Playing bitrate:   #{playing_bitrate}\r
     Buffering bitrate: #{buffering_bitrate}\r
@@ -153,7 +153,7 @@ class NetflixRunner
 
   def create_graphs
     ## create graph
-    time_chunk_size = 1.0#0.1
+    time_chunk_size = 0.1
     py_time_chunk_size = 1.0
 
     chunk_size_in_kbits = @constant_bitrate * 4
@@ -162,7 +162,8 @@ class NetflixRunner
     chunk_buckets = Array.new(90 * (1.0 / time_chunk_size).ceil,0)
 
     # todo, ensure ordered by time
-    request_diff = [0]
+    request_diff_x = []
+    request_diff_y = []
     t1 = chunk_buckets
 
     # this assumes chunk in order
@@ -189,11 +190,18 @@ class NetflixRunner
       if s[:vid_buffer_length] > buffer_thresh and buffer_full_time < 0
         buffer_full_time = time
       end
-      # chunk_buckets[time.floor] += 1
+
       if i > 0
-        request_diff << time - sorted_data[i-1][:time]
+        request_diff_x << time
+        request_diff_y << time - sorted_data[i-1][:time]
       end
     end
+
+    # request_diff_final = Array.new(90)
+
+    # request_diff.each do |rd|
+    #   request_diff_final[rd[:time].floor] = rd[:diff]
+    # end
 
     last_ts = (@py_data[-1]["ts"].to_f / 1000.0).ceil
     throughput_buckets = Array.new(last_ts * (1.0/py_time_chunk_size), 0)
@@ -228,8 +236,9 @@ class NetflixRunner
 
     ## Throughput Graph (From Client)
     g = Gruff::Line.new
-    g.title = 'TCP throughput before and after buffer fills (estimated from client)'
-    g.data :series, chunk_buckets
+    title_1 = 'TCP throughput before and after buffer fills (estimated from client)'
+    g.title = 'Throughput vs. Time (client)'
+    g.data title_1, chunk_buckets
     g.theme = {
       :colors => %w(red grey),
       :marker_color => 'grey',
@@ -247,29 +256,31 @@ class NetflixRunner
 
     ## Request Interval Graph
     g2 = Gruff::Line.new
-    g2.title = 'Request interval before and after buffer fills'
+    title_2 = 'Request interval before and after buffer fills'
+    g2.title = 'Request Interval vs. Time'
     g2.theme = {
       :colors => %w(blue grey),
       :marker_color => 'grey',
       :font_color => 'black',
       :background_colors => 'white'
     }
-    g2.data :series, request_diff
-    g2.labels = labels
+    g2.dataxy title_2, request_diff_x, request_diff_y
+    # g2.labels = request_diff_x
     g2.x_axis_label = 'Time (s)'
     g.y_axis_label = 'Request Interval (s)'
     g2.write('chart_interval.png')
 
     ## Throughput Graph (From tcpdump)
     g3 = Gruff::Line.new
-    g3.title = 'TCP throughput before and after buffer fills (estimated from network)'
+    g3.title = 'Throughput vs. Time (tcpdump)'
+    title_3 = 'TCP throughput before and after buffer fills (estimated from network)'
     g3.theme = {
       :colors => %w(red grey),
       :marker_color => 'grey',
       :font_color => 'black',
       :background_colors => 'white'
     }
-    g3.data :series, throughput_buckets
+    g3.data title_3, throughput_buckets
     g3.labels = labels_py
     g3.x_axis_label = 'Time (s)'
     g.y_axis_label = 'kb/s'
