@@ -7,10 +7,23 @@ require 'gruff'
 require 'json'
 require 'pry'
 
+def isMac?
+    (/darwin/ =~ RUBY_PLATFORM) != nil
+end
+
+def chromeLocation()
+    if isMac?
+        return "/Applications/Google\ Chrome\ Canary.app/Contents/MacOS/Google\ Chrome\ Canary"
+    else
+        return "/usr/bin/google-chrome"
+    end
+end
+
 Capybara.register_driver :headless_chromium do |app|
   caps = Selenium::WebDriver::Remote::Capabilities.chrome(
     "chromeOptions" => {
-      'binary' => "/Applications/Google\ Chrome\ Canary.app/Contents/MacOS/Google\ Chrome\ Canary",
+      # 'binary' => "/Users/leishman/Downloads/chrome-mac/Chromium.app/Contents/MacOS/Chromium",
+      'binary' => chromeLocation(),
       'args' => %w{no-sandbox disable-gpu hide-scrollbars} # add 'headless' in here to run headless, but there are still issues
     }
   )
@@ -70,16 +83,18 @@ class NetflixRunner
     fill_in 'password', with: "#{@passwd}"
     click_button 'Sign In'
 
+    sleep_time = 2
+    wait = 90
+    monitor = Thread.new{ `sudo python monitor.py --timeout #{sleep_time} --analyze --output data/pyAnalysis.txt`}
+
     # save_and_open_page
     # Select user on account
     all('.avatar-wrapper').first.click
 
-    sleep 2
+    sleep sleep_time
     # open video jawbone
     all('.slider-item-0').first.click
 
-    wait = 90
-    monitor = Thread.new{ `python monitor.py --timeout #{wait + 10} --analyze --output data/pyAnalysis.txt`}
     # click play button to redirect to video page
     find('.jawBone .play').click
     puts "Playing..."
@@ -125,8 +140,8 @@ class NetflixRunner
 
     bitrates = @bitrate.uniq
     if bitrates.length > 1
-      puts "More than one bitrate through trial. Ergh."
-      return
+      puts "More than one bitrate through trial. Ergh. Defaulting to max bitrate."
+      @constant_bitrate = 2490
     else
       @constant_bitrate = bitrates[0]
     end
@@ -136,6 +151,7 @@ class NetflixRunner
   end
 
   def analyze(filename, pyFile)
+    puts "Analyzing data..."
     @py_data = JSON.parse(IO.readlines(pyFile)[0])
 
     File.open(filename, "r") do |fh|
@@ -252,7 +268,7 @@ class NetflixRunner
     g.reference_lines[:baseline]  = { :index => ref_line_num, :width => 5, color: 'blue' }
     g.x_axis_label = 'Time (s)'
     g.y_axis_label = 'kb/s'
-    g.write('chart_throughput.png')
+    g.write('graphs/chart_throughput.png')
 
     ## Request Interval Graph
     g2 = Gruff::Line.new
@@ -268,7 +284,7 @@ class NetflixRunner
     # g2.labels = request_diff_x
     g2.x_axis_label = 'Time (s)'
     g.y_axis_label = 'Request Interval (s)'
-    g2.write('chart_interval.png')
+    g2.write('graphs/chart_interval.png')
 
     ## Throughput Graph (From tcpdump)
     g3 = Gruff::Line.new
@@ -284,7 +300,7 @@ class NetflixRunner
     g3.labels = labels_py
     g3.x_axis_label = 'Time (s)'
     g.y_axis_label = 'kb/s'
-    g3.write('chart_py.png')
+    g3.write('graphs/chart_py.png')
   end
 
   def get_chunk_data(str)
