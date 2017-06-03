@@ -7,11 +7,23 @@ require 'gruff'
 require 'json'
 require 'pry'
 
+def isMac?
+    (/darwin/ =~ RUBY_PLATFORM) != nil
+end
+
+def chromeLocation()
+    if isMac?
+        return "/Applications/Google\ Chrome\ Canary.app/Contents/MacOS/Google\ Chrome\ Canary"
+    else
+        return "/usr/bin/google-chrome"
+    end
+end
+
 Capybara.register_driver :headless_chromium do |app|
   caps = Selenium::WebDriver::Remote::Capabilities.chrome(
     "chromeOptions" => {
       # 'binary' => "/Users/leishman/Downloads/chrome-mac/Chromium.app/Contents/MacOS/Chromium",
-      'binary' => "/Applications/Google\ Chrome\ Canary.app/Contents/MacOS/Google\ Chrome\ Canary",
+      'binary' => chromeLocation(),
       'args' => %w{no-sandbox disable-gpu hide-scrollbars} # add 'headless' in here to run headless, but there are still issues
     }
   )
@@ -73,7 +85,7 @@ class NetflixRunner
 
     sleep_time = 2
     wait = 90
-    monitor = Thread.new{ `python monitor.py --timeout #{sleep_time} --analyze --output data/pyAnalysis.txt`}
+    monitor = Thread.new{ `sudo python monitor.py --timeout #{sleep_time} --analyze --output data/pyAnalysis.txt`}
 
     # save_and_open_page
     # Select user on account
@@ -128,8 +140,8 @@ class NetflixRunner
 
     bitrates = @bitrate.uniq
     if bitrates.length > 1
-      puts "More than one bitrate through trial. Ergh."
-      return
+      puts "More than one bitrate through trial. Ergh. Defaulting to max bitrate."
+      @constant_bitrate = 2490
     else
       @constant_bitrate = bitrates[0]
     end
