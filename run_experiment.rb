@@ -134,7 +134,7 @@ class NetflixRunner
         end
         sleep 1
     }
-    puts "\n Reading Netflix logs..."
+    puts "\nReading Netflix logs..."
     log = page.evaluate_script("document.getElementsByClassName('player-log')[0].children[0].value")
 
     log_debug.puts(log)
@@ -142,9 +142,9 @@ class NetflixRunner
 
     bitrates = @bitrate.uniq
     if bitrates.length > 1
-      puts "More than one bitrate through trial. Ergh. Defaulting to most represented bitrate."
       freq = bitrates.inject(Hash.new(0)) { |h,v| h[v] += 1; h }
       @constant_bitrate = bitrates.max_by { |v| freq[v] }
+      puts "More than one bitrate through trial. Ergh. Defaulting to most represented bitrate (#{@constant_bitrate})."
     else
       @constant_bitrate = bitrates[0]
     end
