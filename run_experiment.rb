@@ -59,7 +59,7 @@ class NetflixRunner
     @throughput = []
     @bitrate = []
     @constant_bitrate = 0
-    @chunk_data = {}
+    @chunk_data = []
     @py_data = []
   end
 
@@ -156,9 +156,9 @@ class NetflixRunner
 
     File.open(filename, "r") do |fh|
       fh.each_line do |line|
-        if line.include? "Received chunk" and line.include? "Type: video"
+        if line.include? "MediaBuffer| Received chunk, Type: video"
           d = get_chunk_data(line)
-          @chunk_data[d[:chunk_index]] = d.dup
+          @chunk_data << d.dup
         end
       end
     end
@@ -184,40 +184,51 @@ class NetflixRunner
 
     # this assumes chunk in order
     # puts chunk_data.values
-    sorted_data = @chunk_data.values.sort { |a, b| a[:time] <=> b[:time] }
+    sorted_data = @chunk_data.sort { |a, b| a[:time] <=> b[:time] }
 
     prev_time = 0
     cur_time = time_chunk_size
 
-    chunk_buckets.each_with_index do |v, i|
-      in_slice = sorted_data.select { |el| prev_time <= el[:time] and el[:time] < cur_time }
-      # puts in_slice
-      chunk_buckets[i] = in_slice.length * chunk_size_in_kbits / time_chunk_size
-
-      prev_time = cur_time
-      cur_time += time_chunk_size
-    end
+    init_time = sorted_data.first[:time]
+    sorted_data.each { |el| el[:time] -= init_time }
 
     buffer_thresh = 220
     buffer_full_time = -1
 
+    request_diff_track = 0
+    last_diff_time = 0
+
     sorted_data.each_with_index do |s, i|
       time = s[:time]
+
       if s[:vid_buffer_length] > buffer_thresh and buffer_full_time < 0
         buffer_full_time = time
       end
 
+      # subsample by second
+      round_time = time.round
+      next if round_time == last_diff_time
+
       if i > 0
-        request_diff_x << time
+        request_diff_x << round_time
+        last_diff_time = round_time
         request_diff_y << time - sorted_data[i-1][:time]
       end
     end
 
-    # request_diff_final = Array.new(90)
+    chunk_buckets.each_with_index do |v, i|
 
-    # request_diff.each do |rd|
-    #   request_diff_final[rd[:time].floor] = rd[:diff]
-    # end
+      in_slice = sorted_data.select { |el| prev_time <= el[:time] and el[:time] < cur_time }
+      chunk_buckets[i] = in_slice.length * chunk_size_in_kbits / time_chunk_size
+
+      if in_slice.length > 0 and in_slice.first[:time] > (buffer_full_time + 15)
+        chunk_buckets = chunk_buckets[0..i+1]
+        break
+      end
+
+      prev_time = cur_time
+      cur_time += time_chunk_size
+    end
 
     last_ts = (@py_data[-1]["ts"].to_f / 1000.0).ceil
     throughput_buckets = Array.new(last_ts * (1.0/py_time_chunk_size), 0)
@@ -234,9 +245,11 @@ class NetflixRunner
       throughput_buckets[i] = curr_amount
     end
 
+    ref_line_num = (buffer_full_time / time_chunk_size).floor
+
     labels = {}
 
-    (0..110).step(10) do |n|
+    (0..40).step(10) do |n|
       k = (n * (1/time_chunk_size)).to_i
       labels[k] = n.to_s
     end
@@ -248,6 +261,23 @@ class NetflixRunner
       labels_py[k] = n.to_s
     end
 
+    labels_interval = {}
+    interval_ref_line_num = -1
+
+    (0..110).step(5) do |n|
+      sl = request_diff_x.select { |x| n <= x and x < n + 5 }
+      if sl.first
+        labels_interval[sl.first] = sl.first.to_s
+
+        if sl.first > buffer_full_time
+          interval_ref_line_num = (n / 5)
+        end
+      end
+    end
+
+    # request_diff_x.each_slice(5) do |el|
+    #   labels_interval[el.last] = el.last.to_s
+    # end
 
 
     ## Throughput Graph (From Client)
@@ -264,8 +294,7 @@ class NetflixRunner
     g.reference_line_default_width = 1
     g.labels = labels
 
-    ref_line_num = (buffer_full_time / time_chunk_size).floor
-    g.reference_lines[:baseline]  = { :index => ref_line_num, :width => 5, color: 'blue' }
+    g.reference_lines[:baseline] = { :index => ref_line_num, :width => 5, color: 'green' }
     g.x_axis_label = 'Time (s)'
     g.y_axis_label = 'kb/s'
     g.write('graphs/chart_throughput.png')
@@ -281,9 +310,11 @@ class NetflixRunner
       :background_colors => 'white'
     }
     g2.dataxy title_2, request_diff_x, request_diff_y
-    # g2.labels = request_diff_x
+    g2.reference_lines[:baseline] = { :index => interval_ref_line_num, :width => 5, color: 'green' }
+
+    g2.labels = labels_interval
     g2.x_axis_label = 'Time (s)'
-    g.y_axis_label = 'Request Interval (s)'
+    g2.y_axis_label = 'Request Interval (s)'
     g2.write('graphs/chart_interval.png')
 
     ## Throughput Graph (From tcpdump)
@@ -311,6 +342,8 @@ class NetflixRunner
     start_time = str.match(/StartTime: (\d+\.\d+),/)[1].to_f
     end_time = str.match(/EndTime: (\d+\.\d+),/)[1].to_f
     vid_buffer_length = str.match(/VideoBufferLength: (\d+\.\d+)/)[1].to_f
+
+    #puts "#{time} | gcd"
 
     return {
       time: time,
