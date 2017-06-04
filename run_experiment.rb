@@ -218,7 +218,9 @@ class NetflixRunner
     end
 
     representativePeriod = []
-    preFull = sorted_data.select { |el| el[:time] < buffer_full_time }
+    # in case buffer never fills!
+    representativeTime = buffer_full_time > 0 ? buffer_full_time : 5
+    preFull = sorted_data.select { |el| el[:time] < representativeTime }
     diffs = preFull.each_cons(2).map { |fir, sec| sec[:time] - fir[:time] }
     avgRespTime = diffs.inject { |sum, el| sum + el }.to_f / diffs.size
 
@@ -236,6 +238,10 @@ class NetflixRunner
       cur_time += time_chunk_size
     end
 
+    if buffer_full_time < 0
+        puts "This experiment did not run successfully. The video buffer was never filled.\nThis is likely due to poor network conditions. Please try again under better ones.\nYou can run the offline experiment in the meantime to see the results based on data captured under good conditions."
+        return
+    end
 '
    last_ts = (@py_data[-1]["ts"].to_f / 1000.0).ceil
    throughput_buckets = Array.new(last_ts * (1.0/py_time_chunk_size), 0)
