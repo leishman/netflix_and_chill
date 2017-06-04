@@ -2,12 +2,13 @@
 
 ## From VM:
 1. Download and install VirtualBox (https://www.virtualbox.org/wiki/Downloads) (you should already have it if you have taken CS 244)
-1. Get our disk image here (https://drive.google.com/file/d/0B3JhOxYOciwzOHF6M1VkR2hfUGM/view?usp=sharing), and double click it to import it into VirtualBox
+1. Get our disk image here (https://drive.google.com/drive/u/1/folders/0B3JhOxYOciwzamJUS2pTakVwakU), and double click it to import it into VirtualBox
 1. Log in to Ubuntu
     * Username: cs244
     * Password: cs244
+1. Double click the “live experiment” icon on the desktop, and watch it run for 90 seconds before seeing the charts appear.
+
 If you are running this experiment after June 15th, 2017, we will have disabled the credentials in the VM. Replace them with your own (see below).
-1. Double click the “live experiment” icon on the desktop, and watch it run for 90 seconds before seeing the charts appear
 
 It should be noted that we also included an “offline experiment” script that performs the same analysis on logs we captured under pristine network conditions (outside of the VM). These results are closer to the paper’s own results than some of what can be obtained under spotty conditions when running the live experiment in the VM. All data captured is available in the data subdirectory of the experiment code.
 
