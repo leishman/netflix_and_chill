@@ -85,9 +85,7 @@ class NetflixRunner
 
     sleep_time = 2
     wait = 90
-    if isMac?
-        monitor = Thread.new{ `sudo python monitor.py --timeout #{sleep_time} --analyze --output data/pyAnalysis.txt`}
-    end
+    # monitor = Thread.new{ `sudo python monitor.py --timeout #{sleep_time} --analyze --output data/pyAnalysis.txt`}
 
     # save_and_open_page
     # Select user on account
@@ -148,18 +146,14 @@ class NetflixRunner
     else
       @constant_bitrate = bitrates[0]
     end
-    if isMac?
-        monitor.join
-    end
+    # monitor.join
 
     return log_debug_name
   end
 
   def analyze(filename, pyFile)
     puts "Analyzing data..."
-    if isMac?
-        @py_data = JSON.parse(IO.readlines(pyFile)[0])
-    end
+    # @py_data = JSON.parse(IO.readlines(pyFile)[0])
 
     File.open(filename, "r") do |fh|
       fh.each_line do |line|
@@ -242,30 +236,29 @@ class NetflixRunner
       cur_time += time_chunk_size
     end
 
+'
+   last_ts = (@py_data[-1]["ts"].to_f / 1000.0).ceil
+   throughput_buckets = Array.new(last_ts * (1.0/py_time_chunk_size), 0)
 
-    if isMac?
-        last_ts = (@py_data[-1]["ts"].to_f / 1000.0).ceil
-        throughput_buckets = Array.new(last_ts * (1.0/py_time_chunk_size), 0)
+   curr_packet = 0
+   ts = @py_data[curr_packet]["ts"].to_f / 1000.0
+   throughput_buckets.each_with_index do |b, i|
+     curr_amount = 0
+     while ts < (i + 1) * py_time_chunk_size and curr_packet < @py_data.length
+         ts = @py_data[curr_packet]["ts"].to_f / 1000.0
+         curr_amount += @py_data[curr_packet]["len"]/125.0
+         curr_packet += 1
+     end
+     throughput_buckets[i] = curr_amount
+   end
 
-        curr_packet = 0
-        ts = @py_data[curr_packet]["ts"].to_f / 1000.0
-        throughput_buckets.each_with_index do |b, i|
-          curr_amount = 0
-          while ts < (i + 1) * py_time_chunk_size and curr_packet < @py_data.length
-              ts = @py_data[curr_packet]["ts"].to_f / 1000.0
-              curr_amount += @py_data[curr_packet]["len"]/125.0
-              curr_packet += 1
-          end
-          throughput_buckets[i] = curr_amount
-        end
+   labels_py = {}
 
-        labels_py = {}
-
-        (0..110).step(10) do |n|
-          k = (n * (1/py_time_chunk_size)).to_i
-          labels_py[k] = n.to_s
-        end
-    end
+   (0..110).step(10) do |n|
+     k = (n * (1/py_time_chunk_size)).to_i
+     labels_py[k] = n.to_s
+   end
+'
 
     ref_line_num = (buffer_full_time / time_chunk_size).floor
 
@@ -327,23 +320,23 @@ class NetflixRunner
     g2.y_axis_label = 'Request Interval (s)'
     g2.write('graphs/chart_interval.png')
 
-    if isMac?
-        ## Throughput Graph (From tcpdump)
-        g3 = Gruff::Line.new
-        g3.title = 'Throughput over time (tcpdump)'
-        title_3 = 'TCP throughput before and after buffer fills (estimated from network)'
-        g3.theme = {
-          :colors => %w(red grey),
-          :marker_color => 'grey',
-          :font_color => 'black',
-          :background_colors => 'white'
-        }
-        g3.data title_3, throughput_buckets
-        g3.labels = labels_py
-        g3.x_axis_label = 'Time (s)'
-        g.y_axis_label = 'kb/s'
-        g3.write('graphs/chart_py.png')
-    end
+    """
+    ## Throughput Graph (From tcpdump)
+    g3 = Gruff::Line.new
+    g3.title = 'Throughput over time (tcpdump)'
+    title_3 = 'TCP throughput before and after buffer fills (estimated from network)'
+    g3.theme = {
+      :colors => %w(red grey),
+      :marker_color => 'grey',
+      :font_color => 'black',
+      :background_colors => 'white'
+    }
+    g3.data title_3, throughput_buckets
+    g3.labels = labels_py
+    g3.x_axis_label = 'Time (s)'
+    g.y_axis_label = 'kb/s'
+    g3.write('graphs/chart_py.png')
+    """
   end
 
   def get_chunk_data(str)
